@@ -39,9 +39,14 @@
 @media only screen and (max-width: 600px) {
     .gdg-heading {
         font-family:'google-sans';
-        font-size: 23px;
-        font-weight: 300;
+        font-size:34px;
+        font-weight: 600;
     }
+    .gdg-h1 {
+      font-family:'google-sans';
+      font-size: 30px;
+      font-weight: 600;
+  }
     .gdg-subheading {
         font-family:'google-sans';
         font-size: 20px;

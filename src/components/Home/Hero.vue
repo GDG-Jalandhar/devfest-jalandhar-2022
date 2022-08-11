@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid>
+  <v-container fluid >
     <v-row>
       <v-col md="8">
           <!-- <p class="gdg-heading">DevFest Jalandhar</p> -->
@@ -10,17 +10,15 @@
             <br>
             <v-icon>mdi-clock-time-eight-outline</v-icon> 8:00 AM to 7:00 PM IST
             <br>
-            <v-icon>mdi-google-maps</v-icon> The Cabbana Resort and Spa, Jalandhar
+            <!-- <v-icon>mdi-google-maps</v-icon> The Cabbana Resort and Spa, Jalandhar -->
+            <v-icon>mdi-google-maps</v-icon> Coming Soon..
           </p>
           <p class="google-font text--secondary" style="font-weight: 500;font-size:20px">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
-            ad veritatis architecto ut impedit rerum repudiandae corporis
-            adipisci ex labore quas pariatur, maxime earum! Neque ullam possimus
-            doloremque voluptatibus reprehenderit.
+            An annual event hosted by the Google Developers Group across the world to bring the technology closer to the developers. It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc.
           </p>
 
-          <v-btn rounded depressed large class="mr-3" dark color="#4285F4">Register Now</v-btn>
-          <v-btn rounded outlined depressed large>See More</v-btn>
+          <v-btn rounded depressed large class="mr-3" dark color="#4285F4">Registeration Starting Soon..</v-btn>
+          <!-- <v-btn rounded outlined depressed large>See More</v-btn> -->
    
       </v-col>
       <!-- <v-col md="4">

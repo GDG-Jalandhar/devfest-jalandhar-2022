@@ -58,13 +58,13 @@
     </v-btn> -->
     <!-- 
       class="hidden-sm-and-up" -->
-    <v-btn
+    <!-- <v-btn
       aria-label="Share Button"
       icon
       v-on:click="shareMe"
     >
       <v-icon>mdi-share-variant</v-icon>
-    </v-btn>
+    </v-btn> -->
 
   </v-app-bar>
 </template>
@@ -86,7 +86,7 @@ export default {
     ...mapGetters(["links"]),
   },
   mounted(){
-    this.checkStatus();
+    // this.checkStatus();
   },
   methods: {
     ...mapMutations(["toggleDrawer"]),

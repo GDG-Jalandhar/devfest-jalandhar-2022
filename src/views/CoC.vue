@@ -2,13 +2,13 @@
   <v-main>
     <v-container fluid class="">
       <v-row justify="center" align="center">
-        <v-col md="11" sm="11" lg="11" class="google-font my-15 py-10">
+        <v-col md="12" sm="12" cols="12" lg="10" class="google-font my-10">
           <v-container fluid>
             <v-row align="start" justify="start">
               <v-col md="11" lg="11">
-                <p class="mb-0 super-heading">Code of Conduct</p>
+                <p class="google-font gdg-heading mb-0  grey--text text--darken-2">Code of Conduct</p>
                 <p class="my-0 mb-8 h1-subheading">
-                  All participants of DevFest India 2021 event, online
+                  All participants of DevFest Jalandhar 2022 event, online
                   attendees, event staff, and speakers, must abide by the
                   following policy:
                 </p>

@@ -16,33 +16,33 @@ export default new Vuex.Store({
           showBottomNav: true,
         },
       },
-      {
-        text: "Speakers",
-        to: "/speakers",
-        icon: "mdi-newspaper-variant-outline",
-        meta: {
-          showToolbar: true,
-          showBottomNav: false,
-        },
-      },
-      {
-        text: "Schedule",
-        to: "/schedule",
-        icon: "mdi-newspaper-variant-outline",
-        meta: {
-          showToolbar: true,
-          showBottomNav: false,
-        },
-      },
-      {
-        text: "Registration",
-        to: "/registration",
-        icon: "mdi-account-circle-outline",
-        meta: {
-          showToolbar: true,
-          showBottomNav: true,
-        },
-      },
+      // {
+      //   text: "Speakers",
+      //   to: "/speakers",
+      //   icon: "mdi-newspaper-variant-outline",
+      //   meta: {
+      //     showToolbar: true,
+      //     showBottomNav: false,
+      //   },
+      // },
+      // {
+      //   text: "Schedule",
+      //   to: "/schedule",
+      //   icon: "mdi-newspaper-variant-outline",
+      //   meta: {
+      //     showToolbar: true,
+      //     showBottomNav: false,
+      //   },
+      // },
+      // {
+      //   text: "Registration",
+      //   to: "/registration",
+      //   icon: "mdi-account-circle-outline",
+      //   meta: {
+      //     showToolbar: true,
+      //     showBottomNav: true,
+      //   },
+      // },
       
       {
         text: "FAQ",
