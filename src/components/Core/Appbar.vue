@@ -104,8 +104,8 @@ export default {
         navigator
           .share({
             title:
-              "DevFest India 2021",
-            url: "https://devfestindia.com"+this.$route.path,
+              "DevFest Jalandhar 2022",
+            url: "https://devfest.gdgjalandhar.com"+this.$route.path,
           })
           .then(() => {
             console.log("Thanks for sharing");

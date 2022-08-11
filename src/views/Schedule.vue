@@ -75,7 +75,7 @@ export default {
     ScheduleData: [],
   }),
   created(){
-    document.title = 'Schedule | DevFest India'
+    document.title = 'Schedule | DevFest Jalandhar'
   },
   mounted(){
     let tabs = ['day1','day2','day3']

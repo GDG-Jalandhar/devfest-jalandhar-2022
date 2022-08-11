@@ -132,7 +132,7 @@ export default {
     AddBadgeOverlay: false,
   }),
   created() {
-    document.title = this.userInfo.name + " Profile | DevFest India";
+    document.title = this.userInfo.name + " Profile | DevFest Jalandhar";
   },
   mounted() {
     if (Object.keys(this.$route.query) == "redeem-badge") {

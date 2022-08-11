@@ -114,7 +114,7 @@ export default {
       this.$router.push("/speakers");
     } else {
       this.isFound = true;
-      document.title = this.SpeakersData.name + " Details | DevFest India";
+      document.title = this.SpeakersData.name + " Details | DevFest Jalandhar";
       this.SessionsData = SessionDetails.sort((a, b) => {
         return a.id > b.id ? 1 : -1;
       });

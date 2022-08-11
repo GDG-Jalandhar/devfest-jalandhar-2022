@@ -39,7 +39,7 @@ export default {
   },
   data: () => ({}),
   created() {
-    document.title = "Home Page | DevFest India";
+    document.title = "Home Page | DevFest Jalandhar";
   },
 };
 </script>

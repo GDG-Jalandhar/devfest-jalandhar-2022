@@ -74,7 +74,7 @@ export default {
     ],
   }),
   created() {
-    document.title = "Code of Conduct | DevFest India";
+    document.title = "Code of Conduct | DevFest Jalandhar";
   },
 };
 </script>

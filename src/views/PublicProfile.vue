@@ -40,7 +40,7 @@
               <v-col md="8">
                 <p class="h1-heading">DevFest Profile Not Found</p>
                 <p style="font-size:20px">
-                  Register for DevFest India and get your DevFest Profile or the profile is set to Private.
+                  Register for DevFest Jalandhar and get your DevFest Profile or the profile is set to Private.
                 </p>
                 <v-btn
                   class="mt-2"
@@ -103,7 +103,7 @@ export default {
         if (res.success) {
           this.userInfo = res.data;
           this.isFound = true;
-          document.title = this.userInfo.name + " Profile | DevFest India";
+          document.title = this.userInfo.name + " Profile | DevFest Jalandhar";
         } else {
           this.isFound = false;
           this.userInfo = {};

@@ -136,7 +136,7 @@
               label="By checking this box, i confirm that: "
             ></v-checkbox>
             <p class="mt-3">
-              I agree to let DevFest India Organisers use the information
+              I agree to let DevFest Jalandhar Organisers use the information
               collected in this form to be used for my participation in "DevFest
               India 2021 Event".
             </p>

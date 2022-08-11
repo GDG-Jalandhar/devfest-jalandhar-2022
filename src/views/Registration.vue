@@ -158,7 +158,7 @@ export default {
     RegistrationForm,
   },
   created(){
-    document.title = 'Registration | DevFest India'
+    document.title = 'Registration | DevFest Jalandhar'
   },
   methods: {
     showSnackbar(event) {

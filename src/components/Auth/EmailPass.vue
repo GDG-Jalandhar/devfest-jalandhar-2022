@@ -29,7 +29,7 @@
                 <v-tab-item value="signup" class="px-4 py-5">
                   <v-form ref="signupform">
                     <p class="google-font mb-0" style="font-size:130%">
-                      <b>DevFest India Registraion</b>
+                      <b>DevFest Jalandhar Registraion</b>
                     </p>
                     <p class="google-font my-0">
                       Sign Up to register for #DevFestIndia2021
@@ -95,7 +95,7 @@
                       <v-col>
                         <v-form ref="signinform">
                         <p class="google-font mb-0" style="font-size:130%">
-                          <b>DevFest India Registraion</b>
+                          <b>DevFest Jalandhar Registraion</b>
                         </p>
                         <p class="google-font my-0">
                           Sign In to register for #DevFestIndia2021

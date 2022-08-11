@@ -4,7 +4,7 @@
       <v-col>
         <h3 class="google-font">Login with your Google Account</h3>
         <p class="google-font">
-          Sign in and register to get your entry tickets of the DevFest India
+          Sign in and register to get your entry tickets of the DevFest Jalandhar
           2021.
         </p>
 
