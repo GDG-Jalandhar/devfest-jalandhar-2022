@@ -1,6 +1,7 @@
 <template>
-  <v-main>
-    <v-container fluid class="">
+  <v-main >
+    <v-container fluid class="" style="background: rgb(245,245,245);
+background: linear-gradient(183deg, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 35%);">
       <v-row justify="center" align="center">
         <v-col md="12" sm="12" cols="12" lg="10" class="google-font">
           <HeroVue class="my-10" />
