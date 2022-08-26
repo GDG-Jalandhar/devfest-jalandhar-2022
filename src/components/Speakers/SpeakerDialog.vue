@@ -1,7 +1,7 @@
 <template>
   <!-- border: 1px solid #e0e0e0;
           border-radius: 5px; -->
-  <v-dialog v-model="dialog" width="700" scrollable>
+  <v-dialog v-model="dialog" width="800" scrollable>
     <template v-slot:activator="{ on, attrs }">
       <div
         v-on="on"

@@ -9,7 +9,7 @@
                     <v-col>
                         <router-link class="mb-10" style="text-decoration:none;color:black" to="/schedule"><v-icon>mdi-keyboard-backspace</v-icon> Back to Schdeule</router-link>
 
-                        <p class="h1-heading mt-2">
+                        <p class="gdg-heading mt-2">
                             {{SessionData.title}}
                         </p>
                         <p style="font-size:110%" class="mt-n4">

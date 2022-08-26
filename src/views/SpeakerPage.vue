@@ -2,7 +2,7 @@
   <v-main>
     <v-container fluid>
       <v-row justify="center" align="center">
-        <v-col md="11" sm="11" lg="11" class="google-font my-15 py-10">
+        <v-col md="12" sm="12" cols="12" lg="10" class="google-font my-15 py-10">
           <v-container
             fluid
             v-if="SpeakersData != null && Object.keys(SpeakersData).length > 0"
@@ -18,10 +18,10 @@
                       :alt="SpeakersData.name"
                     ></v-img> 
                     </v-avatar> -->
-                <p class="super-heading mt-2">
+                <p class="gdg-heading mt-2">
                   {{ SpeakersData.name }}
                 </p>
-                <p class="h1-subheading mt-n4">
+                <p class="gdg-subheading mt-n4">
                   {{ SpeakersData.company.designation }},
                   {{ SpeakersData.company.name }}
                 </p>

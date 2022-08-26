@@ -2,12 +2,12 @@
   <v-main>
     <v-container fluid>
       <v-row justify="center" align="center">
-        <v-col md="11" sm="11" lg="11" class="google-font my-15 py-10">
+        <v-col md="12" sm="12" cols="12" lg="10" class="google-font my-15 py-10">
           <v-container fluid>
             <!-- Heading -->
             <v-row justify="center" align="center">
               <v-col>
-                <p class="super-heading">Speakers</p>
+                <p class="gdg-h1 ">Speakers</p>
                 <p style="font-size:20px">
                   Interested in Android, Flutter, Web, Cloud, ML technologies?
                   <br>
