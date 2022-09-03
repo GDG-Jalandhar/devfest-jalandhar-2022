@@ -80,7 +80,7 @@ export default {
       },
       {
         name: "Attendee",
-        value: "1750",
+        value: "2000+",
       },
       {
         name: "Speakers",
