@@ -58,7 +58,7 @@
                     <v-icon> mdi-google-maps </v-icon>
                   </v-avatar>
                   <!-- <v-chip color="#F4B400">The Cabbana Resort and Spa, Phagwara, Punjab, India</v-chip> -->
-                  <v-chip color="#F4B400">Coming Soon...</v-chip>
+                  <v-chip color="#F4B400">The Cabbana Resort and Spa, Phagwara, Punjab</v-chip>
                 </div>
               </v-img>
             </v-col>

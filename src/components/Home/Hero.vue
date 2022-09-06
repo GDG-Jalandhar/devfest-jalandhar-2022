@@ -11,13 +11,14 @@
             <v-icon>mdi-clock-time-eight-outline</v-icon> 8:00 AM to 7:00 PM IST
             <br>
             <!-- <v-icon>mdi-google-maps</v-icon> The Cabbana Resort and Spa, Jalandhar -->
-            <v-icon>mdi-google-maps</v-icon> Coming Soon..
+            <v-icon>mdi-google-maps</v-icon> The Cabbana Resort and Spa, Phagwara, Punjab
           </p>
           <p class="google-font text--secondary" style="font-weight: 500;font-size:20px">
             An annual event hosted by the Google Developers Group across the world to bring the technology closer to the developers. It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc.
           </p>
 
-          <v-btn rounded depressed large class="mr-3" dark color="#4285F4">Registrations Starting Soon..</v-btn>
+          <!-- <v-btn rounded depressed large class="mr-3" dark color="#4285F4">Registrations Starting Soon..</v-btn> -->
+          <button data-event-id="80005018890187" data-ticket-id="0" class="ae-ticket-book-button">Book Now</button>
           <!-- <v-btn rounded outlined depressed large>See More</v-btn> -->
    
       </v-col>

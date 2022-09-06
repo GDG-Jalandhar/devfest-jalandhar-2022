@@ -9,14 +9,46 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
     
-    <meta name="robots" content="noindex">
-    <meta name="googlebot" content="noindex">
+    <!-- <meta name="robots" content="noindex"> -->
+    <!-- <meta name="googlebot" content="noindex"> -->
+
+    <!-- Google Data Structure -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "DevFest Jalandhar",
+        "description": "An annual event hosted by the Google Developers Group across the world to bring the technology closer to the developers. It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc.",
+        "image": "",
+        "startDate": "2022-10-16",
+        "endDate": "2022-10-16",
+        "eventStatus": "https://schema.org/EventMovedOnline",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://devfest.gdgjalandhar.com/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "name": "Registration",
+          "price": "500",
+          "priceCurrency": "INR",
+          "validFrom": "2022-10-10",
+          "url": "https://devfest.gdgjalandhar.com/",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    </script>
+    
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://allevents.in/scripts/public/ae-plugin-lib-button.js"></script>
     <!-- built files will be auto injected -->
   </body>
 </html>
