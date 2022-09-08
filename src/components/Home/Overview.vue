@@ -14,11 +14,7 @@
                   class="google-font text--secondary"
                   style="font-weight: 500; font-size: 18px"
                 >
-                  An annual event hosted by the Google Developers Group across
-                  the world to bring the technology closer to the developers. It
-                  is an all day developer conference where we aim to focus on
-                  multiple technologies through lightning talks, sessions,
-                  workshops, etc.
+                This DevFest will be an achievement for the GDG Jalandhar Team as we are all set to host the 2000+ developers by connecting the dots which we have started since a month. We started with the theme of Building Developers at DevCommunity Roadshow, then Guiding Developers at DevCreate Hackathon and now, ready with the theme - Supporting Developers.
                 </p>
 
                 <v-container fluid class="pa-0 ma-0" style="border-radius: 12px" >
