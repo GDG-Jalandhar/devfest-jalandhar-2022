@@ -10,7 +10,7 @@
           >Become a Sponsor</v-btn
         >
         <v-btn depressed rounded color="#4285F4" target="_blank" href="https://bit.ly/dfj-22-sponsorship-brochure" outlined class="mx-1"
-          >Sponsosrship Brochure</v-btn
+          >Sponsorship Brochure</v-btn
         >
       </v-col>
     </v-row>
