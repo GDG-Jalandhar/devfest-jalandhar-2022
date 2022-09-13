@@ -6,10 +6,10 @@
         <p>
           Sponsors dedicated to building remarkable experience!
         </p>
-        <v-btn depressed rounded color="#4285F4" dark href="https://bit.ly/dfj-22-sponsorship-form" target="_blank" class="mx-1"
+        <v-btn depressed rounded color="#4285F4" dark href="https://bit.ly/dfj-22-sponsorship-form" target="_blank" class="mx-1 mt-1"
           >Become a Sponsor</v-btn
         >
-        <v-btn depressed rounded color="#4285F4" target="_blank" href="https://bit.ly/dfj-22-sponsorship-brochure" outlined class="mx-1"
+        <v-btn depressed rounded color="#4285F4" target="_blank" href="https://bit.ly/dfj-22-sponsorship-brochure" outlined class="mx-1 mt-1"
           >Sponsorship Brochure</v-btn
         >
       </v-col>
