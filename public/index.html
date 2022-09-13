@@ -13,6 +13,15 @@
   <!-- <meta name="robots" content="noindex"> -->
   <!-- <meta name="googlebot" content="noindex"> -->
 
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://devfest.gdgjalandhar.com/",
+      "logo": "https://raw.githubusercontent.com/GDG-Jalandhar/WebsiteData/master/events/devfest-jalandhar-2022/Registration%20DevFest%20Jalandhar.jpg"
+    }
+    </script>
+
   <!-- Google Data Structure -->
   <script type="application/ld+json">
       {
@@ -20,14 +29,26 @@
         "@type": "Event",
         "name": "DevFest Jalandhar",
         "description": "An annual event hosted by the Google Developers Group across the world to bring the technology closer to the developers. It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc.",
-        "image": "https://raw.githubusercontent.com/GDG-Jalandhar/WebsiteData/master/events/devfest-jalandhar-2022/DevFest%20Jalandhar%202022%20Overview.jpg",
+        "image":[ "https://raw.githubusercontent.com/GDG-Jalandhar/WebsiteData/master/events/devfest-jalandhar-2022/Registration%20DevFest%20Jalandhar.jpg"],
         "startDate": "2022-10-16",
         "endDate": "2022-10-16",
-        "eventStatus": "https://schema.org/EventMovedOnline",
-        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
         "location": {
           "@type": "VirtualLocation",
           "url": "https://devfest.gdgjalandhar.com/"
+        },
+        "location": {
+          "@type": "Place",
+          "name": "The Cabbana Resort and Spa",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "NH-1, Highway, Phagwara",
+            "addressLocality": "NH-1, Highway, Phagwara",
+            "postalCode": "144401",
+            "addressRegion": "PB",
+            "addressCountry": "IN"
+          }
         },
         "offers": {
           "@type": "Offer",
@@ -37,6 +58,15 @@
           "validFrom": "2022-10-10",
           "url": "https://devfest.gdgjalandhar.com/",
           "availability": "https://schema.org/InStock"
+        },
+        "performer": {
+          "@type": "PerformingGroup",
+          "name": "Google Developer Group Jalandhar"
+        },
+        "organizer": {
+          "@type": "Organization",
+          "name": "Google Developer Group Jalandhar",
+          "url": "https://devfest.gdgjalandhar.com/"
         }
       }
     </script>
@@ -49,14 +79,14 @@
     content="An annual event hosted by the Google Developers Group across the world to bring the technology closer to the developers. It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc." />
   <meta name="author" content="DevFest Jalandhar Team" />
   <meta property="keywords"
-    content="DevFest Jalandhar, 2022, DevFest 2022, DevFest India, DevFest India 2021, GDG India, GDG DevFest, GDG DevFest India, GDG, gdg, wtm, WomenTeckmakers, Women Teckmakers, Google Developer Groups,Google Developer Group, Google Developers,Google Developer,developer community, developer communities,developer, developers,programmer, programmers, programming, software engineering, software engineer, software engineers, coding, Developer meetup,Developer meetups, developer meetup, hackathons,codelabs, study jam, study jams, devmelas,Developer event, Developer events, Virtual developer event, Virtual developer events" />
+    content="DevFest Jalandhar, DevFest, DevFest 2022, DevFest India, DevFest India 2021, GDG India, GDG DevFest, GDG DevFest India, GDG, Google DevFest, wtm, WomenTeckmakers, Women Teckmakers, Google Developer Groups,Google Developer Group, Google Developers,Google Developer,developer community, developer communities,developer, developers,programmer, programmers, programming, software engineering, software engineer, software engineers, coding, Developer meetup,Developer meetups, developer meetup, hackathons,codelabs, study jam, study jams, devmelas,Developer event, Developer events, Virtual developer event, Virtual developer events" />
   <!-- SEO Tags -->
 
   <!-- SEO Facebook Tags -->
   <meta property="og:title" content="DevFest Jalandhar 2022" />
   <meta property="og:type" content="website" />
   <meta property="og:image"
-    content="https://raw.githubusercontent.com/GDG-Jalandhar/WebsiteData/master/events/devfest-jalandhar-2022/DevFest%20Jalandhar%202022%20Overview.jpg" />
+    content="https://raw.githubusercontent.com/GDG-Jalandhar/WebsiteData/master/events/devfest-jalandhar-2022/Registration%20DevFest%20Jalandhar.jpg" />
   <meta property="og:image"
     content="https://raw.githubusercontent.com/GDG-Jalandhar/WebsiteData/master/DevCreate%20Hackathon%202022/DCH%20Hackathon%20SEO.jpg" />
   <meta property="og:url" content="https://devfest.gdgjalandhar.com/" />
@@ -72,7 +102,7 @@
   <meta name="twitter:description"
     content="An annual event hosted by the Google Developers Group across the world to bring the technology closer to the developers. It is an all day developer conference where we aim to focus on multiple technologies through lightning talks, sessions, workshops, etc." />
   <meta name="twitter:image"
-    content="https://raw.githubusercontent.com/GDG-Jalandhar/WebsiteData/master/events/devfest-jalandhar-2022/DevFest%20Jalandhar%202022%20Overview.jpg" />
+    content="https://raw.githubusercontent.com/GDG-Jalandhar/WebsiteData/master/events/devfest-jalandhar-2022/Registration%20DevFest%20Jalandhar.jpg" />
   <meta name="twitter:tags"
     content="DevFest Jalandhar, DevFest, GDG Jalandhar, DevFest Jalandhar 2022, DevFest 2022, WTM, Women Techmakers, GDG" />
   <!-- SEO Twitter Tags -->
@@ -92,8 +122,8 @@
 
 <body>
   <noscript>
-    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
-        Please enable it to continue.</strong>
+    <strong>We're sorry but DevFest Jalandhar doesn't work properly without JavaScript enabled.
+      Please enable it to continue.</strong>
   </noscript>
   <div id="app"></div>
 
