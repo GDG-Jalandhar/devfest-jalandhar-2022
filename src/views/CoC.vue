@@ -74,7 +74,7 @@ export default {
     ],
   }),
   created() {
-    document.title = "Code of Conduct | DevFest Jalandhar";
+    document.title = "Code of Conduct | DevFest Jalandhar 2022";
   },
 };
 </script>

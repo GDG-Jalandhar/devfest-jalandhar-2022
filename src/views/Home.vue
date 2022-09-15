@@ -44,7 +44,7 @@ export default {
   },
   data: () => ({}),
   created() {
-    document.title = "Home Page | DevFest Jalandhar";
+    document.title = "Home Page | DevFest Jalandhar 2022";
   },
 };
 </script>

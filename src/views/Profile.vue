@@ -88,7 +88,7 @@ export default {
     userInfo:{},
   }),
   created(){
-    document.title = 'DevFest Profile | DevFest Jalandhar'
+    document.title = 'DevFest Profile | DevFest Jalandhar 2022'
     this.checkStatus()
   },
   methods:{

@@ -51,7 +51,7 @@ export default {
     faqsData: data,
   }),
   created(){
-    document.title = 'FAQ | DevFest Jalandhar'
+    document.title = 'FAQ | DevFest Jalandhar 2022'
   }
 };
 </script>

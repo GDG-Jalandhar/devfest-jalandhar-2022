@@ -72,7 +72,7 @@ export default {
             this.$router.push("/schedule");
         } else {
             this.isFound = true;
-            document.title = this.SessionData.title + " Scheule Details | DevFest Jalandhar";
+            document.title = this.SessionData.title + " Scheule Details | DevFest Jalandhar 2022";
             if(this.SessionData.speakers.length){
                 this.Speakers = SpeakersDataTemp.filter(obj => this.SessionData.speakers.find(x => x.toString() === obj.id))
                 // console.log(this.Speakers)

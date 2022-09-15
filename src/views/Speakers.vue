@@ -54,7 +54,7 @@ export default {
     SpeakersData: [],
   }),
   created(){
-    document.title = 'Speakers | DevFest Jalandhar'
+    document.title = 'Speakers | DevFest Jalandhar 2022'
   },
   mounted() {
     this.SpeakersData = this.sortByName(SpeakersDataTemp);

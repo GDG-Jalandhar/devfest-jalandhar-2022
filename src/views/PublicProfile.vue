@@ -103,7 +103,7 @@ export default {
         if (res.success) {
           this.userInfo = res.data;
           this.isFound = true;
-          document.title = this.userInfo.name + " Profile | DevFest Jalandhar";
+          document.title = this.userInfo.name + " Profile | DevFest Jalandhar 2022";
         } else {
           this.isFound = false;
           this.userInfo = {};
