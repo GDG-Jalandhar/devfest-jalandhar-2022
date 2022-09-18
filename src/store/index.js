@@ -16,6 +16,15 @@ export default new Vuex.Store({
           showBottomNav: true,
         },
       },
+      {
+        text: "Badges",
+        to: "/badges",
+        icon: "mdi-newspaper-variant-outline",
+        meta: {
+          showToolbar: true,
+          showBottomNav: true,
+        },
+      },
       // {
       //   text: "Speakers",
       //   to: "/speakers",

@@ -66,8 +66,10 @@
                   >
                   <br />
                   <v-btn
-                    class="primary google-font mt-3"
+                    class="google-font mt-3"
                     depressed
+                    color="#4285f4"
+                    dark
                     large
                     @click="uploadImage()"
                     rounded
@@ -93,7 +95,7 @@
                     class="mt-3"
                     rounded
                     v-model="shapeData"
-                    color="#2B81D6"
+                    color="#4285f4"
                   >
                     <v-btn
                       value="original"
@@ -176,7 +178,7 @@
 </template>
   
   <script>
-import gdgImage from "@/assets/img/attendee.png";
+import gdgImage from "@/assets/img/badge.png";
 export default {
   name: "BadgeComponent",
   data: () => ({
@@ -247,8 +249,8 @@ export default {
           }
         }
       } else {
-        this.ctx.canvas.width = 500;
-        this.ctx.canvas.height = 500;
+        this.ctx.canvas.width = 2500;
+        this.ctx.canvas.height = 2500;
         this.ctx.fillStyle = "#fff";
         this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
       }
@@ -317,8 +319,8 @@ export default {
     0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
   --shadow-elevation-2: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
     0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
-  --button-color: #2b81d6;
-  --button-color-hover: #2b81d6;
+  --button-color: #4285f4;
+  --button-color-hover: #4285f4;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -355,8 +357,8 @@ canvas {
   max-width: 80%;
 }
 .blue-btn {
-  background-color: #2b81d6;
-  border-color: #2b81d6;
+  background-color: #4285f4;
+  border-color: #4285f4;
   text-transform: capitalize;
   border-radius: 5px;
   color: #fff;
@@ -369,7 +371,7 @@ canvas {
   text-transform: capitalize;
   border-radius: 50%;
   border: 1px solid rgb(224, 224, 224);
-  color: #2b81d6;
+  color: #4285f4;
   background-color: white;
   text-decoration: none;
   font-size: 18px;
