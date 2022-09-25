@@ -16,5 +16,17 @@
         "desc":"Google Developer Student Club - LPU is a University-based community group for students interested in Google Developer Technologies. GDSC - LPU gives you a platform to Showcase your skills and gives you exposure to grow, being a part of the community where you will get access to Google Resources for building and enhancing your skills.",
         "img":"gd.png",
         "link":"https://gdsc.community.dev/lovely-professional-university-jalandhar/"
+    },
+    {
+        "name":"GDSC BBSBEC",
+        "desc":"We, at GDSC BBSBEC, intend to build and enhance the development skills and knowledge of students. It's a club where we learn and create amazing stuff together with other inquisitive developers and exhilarate everyone to their core. Our motto is to learn the necessary skills and collaborate and contribute to building solutions for real-world problems.",
+        "img":"gd.png",
+        "link":"https://gdsc.community.dev/baba-banda-singh-bahadur-engineering-college-fatehgarh-sahib/"
+    }
+    ,{
+        "name":"GDSC GNDU Amritsar",
+        "desc":"GDSC- GNDU is a community of tech enthusiasts, run by students in Guru Nanak Dev University, Amritsar, under Google Developer Student Clubs. We believe in 'Growth together', success can be achieved but the real success with satisfaction lies in success with others.",
+        "img":"gd.png",
+        "link":"https://gdsc.community.dev/guru-nanak-dev-university-amritsar/"
     }
 ]
