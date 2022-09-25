@@ -2,33 +2,68 @@
   <v-container fluid class="my-10">
     <v-row>
       <v-col class="text-center google-font">
-        <p class="google-font gdg-h1 mb-0 grey--text text--darken-2">Our Sponsors</p>
-        <p>
-          Sponsors dedicated to building remarkable experience!
+        <p class="google-font gdg-h1 mb-0 grey--text text--darken-2">
+          Our Sponsors
         </p>
-        <v-btn depressed rounded color="#4285F4" dark href="https://bit.ly/dfj-22-sponsorship-form" target="_blank" class="mx-1 mt-1"
+        <p>Sponsors dedicated to building remarkable experience!</p>
+        <v-btn
+          depressed
+          rounded
+          color="#4285F4"
+          dark
+          href="https://bit.ly/dfj-22-sponsorship-form"
+          target="_blank"
+          class="mx-1 mt-1"
           >Become a Sponsor</v-btn
         >
-        <v-btn depressed rounded color="#4285F4" target="_blank" href="https://bit.ly/dfj-22-sponsorship-brochure" outlined class="mx-1 mt-1"
+        <v-btn
+          depressed
+          rounded
+          color="#4285F4"
+          target="_blank"
+          href="https://bit.ly/dfj-22-sponsorship-brochure"
+          outlined
+          class="mx-1 mt-1"
           >Sponsorship Brochure</v-btn
         >
       </v-col>
     </v-row>
-    <v-row class="mx-md-16 px-md-12" justify="center" align="center">
+    <v-row class="" justify="center" align="center">
       <v-col md="12" class="text-center">
-        <!-- {{item.image}} -->
-        <span
-          v-for="(item, index) in pastEvents"
-          :key="index"
-          style="padding: 10px"
-        >
-          <a :href="item.link" target="_blank">
-            <img :src="item.image" :width="item.size" alt="" />
-          </a>
-        </span>
-
+        <v-container fluid class="py-0 my-0 " >
+          <v-row align="center" justify="center" class="">
+            <v-col md="4" class="">
+              <SponsorDialogeVue
+                :item="{
+                  img: 'https://www.gstatic.com/devrel-devsite/prod/vdb149cdc08c87ab249cdebfec6395e8f073056d752ca9c2d285d3b8426fcfa32/developers/images/lockup.svg',
+                  name: 'Google Developer',
+                  desc: `Google Developers is Google's site for software development tools and platforms, application programming interfaces, and technical resources. The site contains documentation on using Google developer tools and APIs—including discussion groups and blogs for developers using Google's developer products.`,
+                  link:'https://developers.google.com'
+                }"
+              />
+            </v-col>
+          </v-row>
+        </v-container>
         
-<!-- 
+
+
+        <!-- <p class="google-font mt-10 mb-n2">Platinum Sponsors</p>
+        <v-container fluid>
+          <v-row align="center" justify="center">
+            <v-col md="2">
+              <SponsorDialogeVue
+                :item="{
+                  img: 'https://theme.zdassets.com/theme_assets/9442057/efc3820e436f9150bc8cf34267fff4df052a1f9c.png',
+                  name: 'Stream',
+                  desc: `Stream's <a href='https://getstream.io/chat/sdk/android/?utm_source=DevFest&utm_medium=Whole_Event_L&utm_content=Developer&utm_campaign=DevFest_October2022_AndroidChatSDK_klmh22'>Android</a> & <a href='https://getstream.io/chat/sdk/flutter/?utm_source=DevFest&utm_medium=Whole_Event_L&utm_content=Developer&utm_campaign=DevFest_October2022_FlutterChatSDK_klmh22'>Flutter</a> SDKs launch chat faster and its UI components make it easy to customize. Try it for free today!`,
+                  link:'https://getstream.io/chat/sdk/android/?utm_source=DevFest&utm_medium=Whole_Event_L&utm_content=Developer&utm_campaign=DevFest_October2022_AndroidChatSDK_klmh22'
+                }"
+              />
+            </v-col>
+          </v-row>
+        </v-container> -->
+
+        <!-- 
         <p class="google-font mt-10">Platinum Sponsors</p>
         <a href="https://www.connectzone.in/" target="_blank" class="mx-2">
           <img
@@ -69,8 +104,12 @@
 </template>
 
 <script>
+import SponsorDialogeVue from "../Common/SponsorDialoge.vue";
 export default {
   name: "SponsorComponent",
+  components: {
+    SponsorDialogeVue,
+  },
   data: () => ({
     pastEvents: [
       {
@@ -79,7 +118,7 @@ export default {
         image:
           "https://www.gstatic.com/devrel-devsite/prod/vdb149cdc08c87ab249cdebfec6395e8f073056d752ca9c2d285d3b8426fcfa32/developers/images/lockup.svg",
         link: "https://developers.google.com/",
-      }
+      },
     ],
   }),
 };

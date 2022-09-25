@@ -10,7 +10,7 @@
                 <p
                   class="google-font gdg-heading mb-0 grey--text text--darken-2"
                 >
-                  DevFest Jalandhar Badge
+                  DevFest Jalandhar Speaker Badge
                 </p>
                 <p class="my-0 mb-8 h1-subheading">
                   Now that you are here, how about personalising your DevFest
@@ -19,7 +19,7 @@
                   share your image using #DevFestJalandhar on different social
                   platforms.
                 </p>
-                
+               
               </v-col>
 
               <!-- For Desktop -->
@@ -31,7 +31,7 @@
               >
                 <div class="d-none d-sm-none d-md-block mb-10">
                   <p class="google-font gdg-h1 mb-0 grey--text text--darken-2">
-                    DevFest Jalandhar Badge
+                    DevFest Jalandhar Speaker Badge
                   </p>
                   <p class="google-font" style="font-size: 18px">
                     Now that you are here, how about personalising your DevFest
@@ -49,7 +49,7 @@
                   <v-btn
                     class="google-font mt-3"
                     depressed
-                    color="#4285f4"
+                    color="#DB4437"
                     dark
                     large
                     @click="uploadImage()"
@@ -76,7 +76,7 @@
                     class="mt-3"
                     rounded
                     v-model="shapeData"
-                    color="#4285f4"
+                    color="#DB4437"
                   >
                     <v-btn
                       value="original"
@@ -159,9 +159,9 @@
 </template>
   
   <script>
-import gdgImage from "@/assets/img/badge.png";
+import gdgImage from "@/assets/img/speaker.png";
 export default {
-  name: "BadgeComponent",
+  name: "SBadgeComponent",
   data: () => ({
     downloadbtn: false,
     canvas: null,
@@ -300,8 +300,8 @@ export default {
     0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
   --shadow-elevation-2: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
     0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
-  --button-color: #4285f4;
-  --button-color-hover: #4285f4;
+  --button-color: #DB4437;
+  --button-color-hover: #DB4437;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -338,8 +338,8 @@ canvas {
   max-width: 80%;
 }
 .blue-btn {
-  background-color: #4285f4;
-  border-color: #4285f4;
+  background-color: #DB4437;
+  border-color: #DB4437;
   text-transform: capitalize;
   border-radius: 5px;
   color: #fff;
@@ -352,7 +352,7 @@ canvas {
   text-transform: capitalize;
   border-radius: 50%;
   border: 1px solid rgb(224, 224, 224);
-  color: #4285f4;
+  color: #DB4437;
   background-color: white;
   text-decoration: none;
   font-size: 18px;

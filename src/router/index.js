@@ -21,6 +21,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Badges.vue')
   },
   {
+    path: '/speakers-badge',
+    name: 'SBadges',
+    component: () => import(/* webpackChunkName: "speaker-badge" */ '../views/BadgesSpeakers.vue')
+  },
+  {
     path: '/speakers',
     name: 'Speakers',
     component: () => import(/* webpackChunkName: "speakers" */ '../views/Speakers.vue')
@@ -40,21 +45,26 @@ const routes = [
     name: 'SpeakerPage',
     component: () => import(/* webpackChunkName: "speaker-page" */ '../views/SpeakerPage.vue')
   },
+  // {
+  //   path: '/profile',
+  //   name: 'Profile',
+  //   component: () => import(/* webpackChunkName: "profile" */ '../views/Profile.vue')
+  // },
   {
-    path: '/profile',
-    name: 'Profile',
-    component: () => import(/* webpackChunkName: "profile" */ '../views/Profile.vue')
+    path: '/community-partners',
+    name: 'community-partners',
+    component: () => import(/* webpackChunkName: "profile" */ '../views/PartnerCommunities.vue')
   },
-  {
-    path: '/u/:id',
-    name: 'PublicProfile',
-    component: () => import(/* webpackChunkName: "PublicProfile" */ '../views/PublicProfile.vue')
-  },
-  {
-    path: '/registration',
-    name: 'Registration',
-    component: () => import(/* webpackChunkName: "Registration" */ '../views/Registration.vue')
-  },
+  // {
+  //   path: '/u/:id',
+  //   name: 'PublicProfile',
+  //   component: () => import(/* webpackChunkName: "PublicProfile" */ '../views/PublicProfile.vue')
+  // },
+  // {
+  //   path: '/registration',
+  //   name: 'Registration',
+  //   component: () => import(/* webpackChunkName: "Registration" */ '../views/Registration.vue')
+  // },
   {
     path: '/coc',
     name: 'CodeofConduct',

@@ -1,0 +1,20 @@
+[
+    {
+        "name":"GDSC NIT Jalandhar",
+        "desc":"A community of active learners who believe in collaboration over competition",
+        "img":"gd.png",
+        "link":"https://gdsc.community.dev/dr-b-r-ambedkar-national-institute-of-technology-nit-jalandhar/"
+    },
+    {
+        "name":"GDSC UIET Punjab",
+        "desc":"We are an open community of geeks who help each other learn new technologies, in a peer-to-peer learning environment. We believe that every student can become a developer and use their newfound knowledge to make an impact on their society. To help students bridge the gap between theory and practice, we host workshops, meetups, and informative sessions every now and then.",
+        "img":"gd.png",
+        "link":"https://gdsc.community.dev/university-institute-of-engineering-technology-punjab-university-chandigarh"
+    },
+    {
+        "name":"GDSC LPU",
+        "desc":"Google Developer Student Club - LPU is a University-based community group for students interested in Google Developer Technologies. GDSC - LPU gives you a platform to Showcase your skills and gives you exposure to grow, being a part of the community where you will get access to Google Resources for building and enhancing your skills.",
+        "img":"gd.png",
+        "link":"https://gdsc.community.dev/lovely-professional-university-jalandhar/"
+    }
+]

@@ -52,7 +52,15 @@ export default new Vuex.Store({
       //     showBottomNav: true,
       //   },
       // },
-      
+      {
+        text: "Community Partners",
+        to: "/community-partners",
+        icon: "mdi-account-switch-outline",
+        meta: {
+          showToolbar: true,
+          showBottomNav: false,
+        },
+      },
       {
         text: "FAQ",
         to: "/faq",
