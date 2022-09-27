@@ -4,7 +4,7 @@
       v-model="snackWithButtons"
       :timeout="timeout"
       bottom
-      style="margin-bottom:10px"
+      style="margin-bottom: 10px"
       class="snack"
     >
       {{ snackWithBtnText }}
@@ -32,15 +32,38 @@
     </v-snackbar>
     <Appbar />
     <Appdrawer />
-    
 
-    <v-main class="pa-0 ma-0">
+    <v-main class="px-0 mx-0">
       <v-slide-y-reverse-transition>
-        <router-view v-show="show" />
+      <v-container
+        fluid
+        class="text-center text-sm-center white--text"
+        style="background: #484a52"
+      >
+        <v-row align="center" justify="center">
+          <v-col md="12" lg="12" xl="12">
+            <p class="py-0 google-font mb-0">
+              <span class="mr-md-1" style="font-size: 85%">
+                Help GDG Jalandhar for <br class="hidden-sm-and-up"><b>DevFest Jalandhar 2022</b>
+              </span>
+              <!-- <br class="d-block d-sm-none" /> -->
+              <router-link
+                class="ml-1"
+                to="/donate"
+                style="color: white; font-size: 85%"
+                >Donate now</router-link
+              >
+            </p>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-slide-y-reverse-transition>
+      <v-slide-y-reverse-transition>
+        <router-view v-show="show" class="pa-0 ma-0" />
       </v-slide-y-reverse-transition>
     </v-main>
-    <AppFooter class="hidden-sm-and-down"/>
-    <BottomNav class="hidden-md-and-up"/>
+    <AppFooter class="hidden-sm-and-down" />
+    <BottomNav class="hidden-md-and-up" />
   </v-app>
 </template>
 
@@ -55,7 +78,7 @@ export default {
     Appbar,
     Appdrawer,
     AppFooter,
-    BottomNav
+    BottomNav,
   },
   data: () => ({
     //

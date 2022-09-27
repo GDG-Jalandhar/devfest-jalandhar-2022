@@ -1,11 +1,6 @@
 <template>
   <!-- style="box-shadow: 0 2px 6px 0 rgba(0,0,0,.12), inset  0 -1px 0 0 #dadce0" -->
-  <v-app-bar
-    app
-    fixed
-    color="white"
-    flat
-  >
+  <v-app-bar app fixed color="white" flat>
     <v-app-bar-nav-icon
       aria-label="Hamburger Btn"
       @click="toggleDrawer"
@@ -15,11 +10,9 @@
       ><router-link
         to="/"
         class="google-font grey--text text--darken-2"
-        style="text-decoration: none; font-size: 120%;font-weight:400"
+        style="text-decoration: none; font-size: 120%; font-weight: 400"
       >
-        <p class="google-font my-0 mb-0">
-          DevFest Jalandhar
-        </p>
+        <p class="google-font my-0 mb-0">DevFest Jalandhar</p>
       </router-link></v-toolbar-title
     >
     <!-- <v-spacer></v-spacer> -->
@@ -37,12 +30,11 @@
         :key="i"
         :to="link.to"
         @click="onClick($event, link)"
-        style="text-transform: capitalize; font-size: 17px;font-weight:400"
+        style="text-transform: capitalize; font-size: 17px; font-weight: 400"
         >{{ link.text }}</v-tab
       >
     </v-tabs>
     <v-spacer></v-spacer>
-   
 
     <!-- <v-btn
       class="ma-2"
@@ -52,40 +44,52 @@
       v-if="loadingUser"
     >
     </v-btn> -->
-    
+    <v-btn
+      to="/donate"
+      style="text-transform: capitalize"
+      rounded
+      depressed
+      class="mx-2 google-font hidden-sm-and-down"
+      outlined
+      dark
+      color="#4285fa"
+      rel="noreferrer"
+    >
+      Donate us
+    </v-btn>
     <!-- <v-btn v-if="!userFound && !loadingUser" to="/profile" style="text-transform: capitalize;" rounded depressed class="mx-2 google-font hidden-sm-and-down" outlined color="#616161" rel="noreferrer">
       DevFest Profile
     </v-btn> -->
     <!-- 
       class="hidden-sm-and-up" -->
-    <v-btn
-      aria-label="Share Button"
-      icon
-      v-on:click="shareMe"
-    >
+    <v-btn aria-label="Share Button" icon v-on:click="shareMe">
       <v-icon>mdi-share-variant</v-icon>
     </v-btn>
-
   </v-app-bar>
 </template>
 
 <script>
-
 import { mapGetters, mapMutations } from "vuex";
 export default {
   name: "AppBar",
   data: () => ({
-    hideSlidersOn: ["CodeofConduct","Profile","SpeakerPage","scheduleDetails","PublicProfile"],
+    hideSlidersOn: [
+      "CodeofConduct",
+      "Profile",
+      "SpeakerPage",
+      "scheduleDetails",
+      "PublicProfile",
+      "donate",
+    ],
     userFound: false,
     userInfo: {},
-    loadingUser: true
+    loadingUser: true,
   }),
-  components:{
-  },
+  components: {},
   computed: {
     ...mapGetters(["links"]),
   },
-  mounted(){
+  mounted() {
     // this.checkStatus();
   },
   methods: {
@@ -96,16 +100,15 @@ export default {
       this.$vuetify.goTo(item.href);
     },
     getRouteName() {
-        return this.hideSlidersOn.includes(this.$route.name) ? true : false;
+      return this.hideSlidersOn.includes(this.$route.name) ? true : false;
     },
     shareMe() {
       if (navigator.share) {
         // console.log(this.$route)
         navigator
           .share({
-            title:
-              "DevFest Jalandhar 2022",
-            url: "https://devfest.gdgjalandhar.com"+this.$route.path,
+            title: "DevFest Jalandhar 2022",
+            url: "https://devfest.gdgjalandhar.com" + this.$route.path,
           })
           .then(() => {
             console.log("Thanks for sharing");

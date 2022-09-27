@@ -47,7 +47,7 @@
         
 
 
-        <!-- <p class="google-font mt-10 mb-n2">Platinum Sponsors</p>
+        <p class="google-font mt-10 mb-n2">Platinum Sponsors</p>
         <v-container fluid>
           <v-row align="center" justify="center">
             <v-col md="2">
@@ -61,7 +61,7 @@
               />
             </v-col>
           </v-row>
-        </v-container> -->
+        </v-container>
 
         <!-- 
         <p class="google-font mt-10">Platinum Sponsors</p>

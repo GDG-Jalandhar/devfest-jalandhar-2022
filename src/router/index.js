@@ -55,6 +55,11 @@ const routes = [
     name: 'community-partners',
     component: () => import(/* webpackChunkName: "profile" */ '../views/PartnerCommunities.vue')
   },
+  {
+    path: '/donate',
+    name: 'donate',
+    component: () => import(/* webpackChunkName: "donate" */ '../views/Donate.vue')
+  },
   // {
   //   path: '/u/:id',
   //   name: 'PublicProfile',

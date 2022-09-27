@@ -9,6 +9,7 @@ background: linear-gradient(183deg, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 
           <!-- <WhatWeDoVue/> -->
           <TechFocusedVue class="my-10" />
           <JoinCommunityVue class="my-10" />
+          <!-- <SupportVue/> -->
           <SponsorsVue/>
         </v-col>
       </v-row>
@@ -25,6 +26,7 @@ import JoinCommunityVue from '../components/Home/JoinCommunity.vue';
 import OverviewVue from "../components/Home/Overview.vue";
 import SponsorsVue from '../components/Home/Sponsors.vue';
 import TechFocusedVue from '../components/Home/TechFocused.vue';
+// import SupportVue from "../components/Home/Support.vue";
 
 
 // import WhatWeDoVue from '../components/Home/WhatWeDo.vue';
@@ -39,7 +41,8 @@ export default {
     // WhatWeDoVue,
     TechFocusedVue,
     JoinCommunityVue,
-    SponsorsVue
+    SponsorsVue,
+    // SupportVue
     // register your component
   },
   data: () => ({}),
