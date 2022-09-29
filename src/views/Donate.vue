@@ -29,8 +29,7 @@
                       </p>
                       <p>
                         To put it in a nutshell, we are a community that
-                        organizes tech talks, workshops, bootcamps, Google
-                        flagship events where programmers meet to discuss and
+                        organizes tech talks, workshops, bootcamps, events where programmers meet to discuss and
                         work with several Google developer resources and
                         products.
                       </p>
