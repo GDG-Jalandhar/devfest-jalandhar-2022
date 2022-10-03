@@ -34,5 +34,35 @@
         "desc":"GDSC- GNDU is a community of tech enthusiasts, run by students in Guru Nanak Dev University, Amritsar, under Google Developer Student Clubs. We believe in 'Growth together', success can be achieved but the real success with satisfaction lies in success with others.",
         "img":"gd.png",
         "link":"https://gdsc.community.dev/chandigarh-university-chandigarh/"
+    },
+    {
+        "name":"GDSC CGC COE",
+        "desc":"GDSC CGC is a student oriented technical club which primely intents to aid students in building up their skills in the prominent tech-fields of the present - Web Technologies, Machine learning, Mobile app development, Cloud. Students from any/every academic background are welcome. DSC CGC fuels the concept of bringing like-minded tech geeks under one roof to enhance their growth and make the best of the talents available to the community.",
+        "img":"gd.png",
+        "link":"https://gdsc.community.dev/chandigarh-group-of-colleges-coe-landran/"
+    },
+    {
+        "name":"GDSC DAVIET",
+        "desc":"We at DAV Institute of Engineering and technology, believe that technology can do marvels and all it requires is good guidance, to transform any student into a developer. We aim to bridge the gap between learning and implementation. ",
+        "img":"gd.png",
+        "link":"https://gdsc.community.dev/dav-institute-of-engineering-technology-jalandhar/"
+    },
+    {
+        "name":"ng-India",
+        "desc":"India's Largest Angular Conference",
+        "img":"ngindia.jpeg",
+        "link":"https://www.meetup.com/geek97/"
+    },
+    {
+        "name":"JavaScript Kingdom",
+        "desc":"A community for JavaScript stacks developers. Place to learn new daily. ",
+        "img":"jsk.png",
+        "link":"https://javascriptkingdom.github.io"
+    },
+    {
+        "name":"neo4j",
+        "desc":"Neo4j is a graph database management system developed by Neo4j, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing.",
+        "img":"neo4j.png",
+        "link":"https://neo4j.com/"
     }
 ]

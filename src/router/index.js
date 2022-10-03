@@ -25,26 +25,26 @@ const routes = [
     name: 'SBadges',
     component: () => import(/* webpackChunkName: "speaker-badge" */ '../views/BadgesSpeakers.vue')
   },
-  {
-    path: '/speakers',
-    name: 'Speakers',
-    component: () => import(/* webpackChunkName: "speakers" */ '../views/Speakers.vue')
-  },
-  {
-    path: '/schedule',
-    name: 'Schedule',
-    component: () => import(/* webpackChunkName: "schedule" */ '../views/Schedule.vue')
-  },
-  {
-    path: '/schedule/:id',
-    name: 'scheduleDetails',
-    component: () => import(/* webpackChunkName: "scheduleDetails" */ '../views/SchedulePage.vue')
-  },
-  {
-    path: '/speakers/:id',
-    name: 'SpeakerPage',
-    component: () => import(/* webpackChunkName: "speaker-page" */ '../views/SpeakerPage.vue')
-  },
+  // {
+  //   path: '/speakers',
+  //   name: 'Speakers',
+  //   component: () => import(/* webpackChunkName: "speakers" */ '../views/Speakers.vue')
+  // },
+  // {
+  //   path: '/schedule',
+  //   name: 'Schedule',
+  //   component: () => import(/* webpackChunkName: "schedule" */ '../views/Schedule.vue')
+  // },
+  // {
+  //   path: '/schedule/:id',
+  //   name: 'scheduleDetails',
+  //   component: () => import(/* webpackChunkName: "scheduleDetails" */ '../views/SchedulePage.vue')
+  // },
+  // {
+  //   path: '/speakers/:id',
+  //   name: 'SpeakerPage',
+  //   component: () => import(/* webpackChunkName: "speaker-page" */ '../views/SpeakerPage.vue')
+  // },
   // {
   //   path: '/profile',
   //   name: 'Profile',
@@ -79,7 +79,16 @@ const routes = [
     path: '/faq',
     name: 'FAQ',
     component: () => import(/* webpackChunkName: "FAQ" */ '../views/FAQ.vue')
-  }
+  },
+  {
+    path: "*",
+    name: "PageNotFound",
+    component: () =>
+      import(/* webpackChunkName: "PageNotFound" */ "../views/PageNotFound.vue"),
+      meta:{
+        title:"Page not found | GDG Jalandhar" 
+      }
+  },
 ]
 
 const router = new VueRouter({

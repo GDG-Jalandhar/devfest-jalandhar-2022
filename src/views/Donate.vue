@@ -30,7 +30,7 @@
                       <p>
                         To put it in a nutshell, we are a community that
                         organizes tech talks, workshops, bootcamps, events where programmers meet to discuss and
-                        work with several Google developer resources and
+                        work with several developer resources and
                         products.
                       </p>
                       <v-chip dark color="#4285F4"

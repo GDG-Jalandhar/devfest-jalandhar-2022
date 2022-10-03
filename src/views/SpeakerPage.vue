@@ -2,7 +2,7 @@
   <v-main>
     <v-container fluid>
       <v-row justify="center" align="center">
-        <v-col md="12" sm="12" cols="12" lg="10" class="google-font my-15 py-10">
+        <v-col md="12" sm="12" cols="12" lg="10" class="google-font my-10">
           <v-container
             fluid
             v-if="SpeakersData != null && Object.keys(SpeakersData).length > 0"
