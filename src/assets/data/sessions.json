@@ -12,7 +12,8 @@
     "timeDuration": "15 min",
     "speakers": [
       101 
-    ]
+    ],
+    "visible":"1"
   },
   {
     "id": "502",
@@ -27,7 +28,8 @@
     "timeDuration": "30 min",
     "speakers": [
       102
-    ]
+    ],
+    "visible":"0"
   },
   {
     "id": "503",
@@ -42,6 +44,7 @@
     "timeDuration": "30 min",
     "speakers": [
       103
-    ]
+    ],
+    "visible":"0"
   }
 ]

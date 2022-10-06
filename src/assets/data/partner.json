@@ -31,7 +31,7 @@
     },
     {
         "name":"GDSC Chandigarh University",
-        "desc":"GDSC- GNDU is a community of tech enthusiasts, run by students in Guru Nanak Dev University, Amritsar, under Google Developer Student Clubs. We believe in 'Growth together', success can be achieved but the real success with satisfaction lies in success with others.",
+        "desc":"Developer Student Clubs - Chandigarh University: Helping students bridge the gap between theory and practice. Developer Student Clubs Chandigarh University is a  community group for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome to join our family. By joining a DSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community. The Developer Student Clubs at Chandigarh University strives to enhance the educational, recreational, social, or cultural environment of Chandigarh University by being inclusive to all students, by transferring knowledge to students, by forging closer relationships between students and local businesses in the community, and by promoting diversity in the tech community.",
         "img":"gd.png",
         "link":"https://gdsc.community.dev/chandigarh-university-chandigarh/"
     },
@@ -63,6 +63,6 @@
         "name":"neo4j",
         "desc":"Neo4j is a graph database management system developed by Neo4j, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing.",
         "img":"neo4j.png",
-        "link":"https://neo4j.com/"
+        "link":"https://community.neo4j.com/"
     }
 ]

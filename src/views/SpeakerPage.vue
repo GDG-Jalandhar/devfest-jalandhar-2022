@@ -25,8 +25,7 @@
                   {{ SpeakersData.company.designation }},
                   {{ SpeakersData.company.name }}
                 </p>
-                <p style="font-size:20px;opacity:0.8">
-                  {{ SpeakersData.bio }}
+                <p style="font-size:20px;opacity:0.8" v-html="SpeakersData.bio">
                 </p>
 
                 <!-- Socail Card -->
@@ -106,7 +105,7 @@ export default {
     this.loader = true;
 
     this.SpeakersData = SpeakersDataTemp.filter(
-      (res) => res.id == this.$route.params.id
+      (res) => res.id == this.$route.params.id && res.visible==1
     )[0];
 
     if (this.SpeakersData == null) {

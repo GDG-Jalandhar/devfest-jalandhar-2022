@@ -12,7 +12,7 @@ background: linear-gradient(183deg, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 
                 <p style="font-size:20px">
                   Interested in Android, Flutter, Web, Cloud, ML technologies?
                   <br>
-                  Join the vibrant and divrse set of speakers where you can
+                  Join the vibrant and diverse set of speakers where you can
                   learn, network, share knowledge and enjoy the experience.
                 </p>
               </v-col>
@@ -57,7 +57,7 @@ export default {
     document.title = 'Speakers | DevFest Jalandhar 2022'
   },
   mounted() {
-    this.SpeakersData = this.sortByName(SpeakersDataTemp);
+    this.SpeakersData = this.sortByName(SpeakersDataTemp).filter(s=>s.visible==1);
     this.SessionDetails = SessionDetails.sort((a, b) => {
       return a.id > b.id ? 1 : -1;
     });

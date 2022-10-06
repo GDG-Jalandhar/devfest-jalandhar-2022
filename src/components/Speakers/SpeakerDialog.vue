@@ -91,8 +91,7 @@
           <v-row>
             <v-col md="12" cols="12" class="px-md-10 px-5">
               <!-- <p class="google-font mb-0" style="font-size: 110%"><b>Bio</b></p> -->
-              <p class="google-font" style="font-size: 120%;color:black">
-                {{ speakerData.bio }}
+              <p class="google-font" style="font-size: 120%;color:black" v-html="speakerData.bio">
               </p>
 
               <socialMediaDetails

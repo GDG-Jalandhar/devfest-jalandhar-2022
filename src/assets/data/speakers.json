@@ -7,14 +7,15 @@
       "name": "Google Cloud"
     },
     "image": "sathishvj.jpg",
-    "bio": "Sathish VJ is a software architect, technology trainer, and an angel investor. He has taken all certifications on Google Cloud. He runs a YouTube channel, called AwesomeGCP (https://www.youtube.com/AwesomeGCP), where he teaches people how to apply Google Cloud to their projects and also prepare for the certifications.",
+    "bio": "Sathish VJ is a software architect, technology trainer, and an angel investor. He has taken all certifications on Google Cloud. He runs a YouTube channel, called AwesomeGCP (<a target='_blank' href='https://www.youtube.com/AwesomeGCP'>https://www.youtube.com/AwesomeGCP</a>), where he teaches people how to apply Google Cloud to their projects and also prepare for the certifications.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/sathishvj/",
       "twitter": "https://twitter.com/sathishvj"
     },
     "sessionId": [
       501
-    ]
+    ],
+    "visible":"1"
   },
   {
     "id": "102",
@@ -31,7 +32,8 @@
     },
     "sessionId": [
       502
-    ]
+    ],
+    "visible":"0"
   },
   {
     "id": "103",
@@ -48,6 +50,7 @@
     },
     "sessionId": [
       503
-    ]
+    ],
+    "visible":"0"
   }
 ]

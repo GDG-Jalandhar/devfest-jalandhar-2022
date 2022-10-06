@@ -25,15 +25,15 @@ export default new Vuex.Store({
           showBottomNav: true,
         },
       },
-      // {
-      //   text: "Speakers",
-      //   to: "/speakers",
-      //   icon: "mdi-newspaper-variant-outline",
-      //   meta: {
-      //     showToolbar: true,
-      //     showBottomNav: false,
-      //   },
-      // },
+      {
+        text: "Speakers",
+        to: "/speakers",
+        icon: "mdi-newspaper-variant-outline",
+        meta: {
+          showToolbar: true,
+          showBottomNav: false,
+        },
+      },
       // {
       //   text: "Schedule",
       //   to: "/schedule",

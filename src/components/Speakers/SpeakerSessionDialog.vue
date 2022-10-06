@@ -40,7 +40,7 @@
               <p class="mt-10" style="font-size:22px;color:black;font-weight:500">Overview</p>
               <p style="font-size:17px;color:black;opacity:0.9">{{item.description}}</p>
 
-              <v-btn :to="'/schedule/'+item.id" target="_blank" depressed outlined rounded style="text-decoration:none;text-transform: capitalize;">View in New Tab <v-icon right>mdi-open-in-new</v-icon></v-btn >
+              <!-- <v-btn :to="'/schedule/'+item.id" target="_blank" depressed outlined rounded style="text-decoration:none;text-transform: capitalize;">View in New Tab <v-icon right>mdi-open-in-new</v-icon></v-btn > -->
 
               <!-- {{item}} -->
             </v-col>

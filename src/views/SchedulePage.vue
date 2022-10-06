@@ -64,7 +64,7 @@ export default {
     }),
     mounted(){
         this.SessionData = SessionDetails.filter(
-            (res) => res.id == this.$route.params.id
+            (res) => res.id == this.$route.params.id && res.visible==1
         )[0];
 
         if (this.SessionData == null) {
