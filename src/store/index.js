@@ -53,8 +53,8 @@ export default new Vuex.Store({
       //   },
       // },
       {
-        text: "Community Partners",
-        to: "/community-partners",
+        text: "Partners",
+        to: "/partners",
         icon: "mdi-account-switch-outline",
         meta: {
           showToolbar: true,

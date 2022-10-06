@@ -51,9 +51,9 @@ const routes = [
   //   component: () => import(/* webpackChunkName: "profile" */ '../views/Profile.vue')
   // },
   {
-    path: '/community-partners',
-    name: 'community-partners',
-    component: () => import(/* webpackChunkName: "profile" */ '../views/PartnerCommunities.vue')
+    path: '/partners',
+    name: 'partners',
+    component: () => import(/* webpackChunkName: "profile" */ '../views/PartnersView.vue')
   },
   {
     path: '/donate',

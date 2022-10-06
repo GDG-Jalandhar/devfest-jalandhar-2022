@@ -64,5 +64,11 @@
         "desc":"Neo4j is a graph database management system developed by Neo4j, Inc. Described by its developers as an ACID-compliant transactional database with native graph storage and processing.",
         "img":"neo4j.png",
         "link":"https://community.neo4j.com/"
+    },
+    {
+        "name":"Web3Panjab",
+        "desc":"Creating web3 ecosystem and promoting opensource and tech in Punjab",
+        "img":"w3.png",
+        "link":"https://twitter.com/Web3Panjab"
     }
 ]
