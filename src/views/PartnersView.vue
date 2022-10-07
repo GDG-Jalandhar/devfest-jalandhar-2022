@@ -7,7 +7,7 @@
             <v-row>
               <v-col md="12" class="text-center">
                 <p class="google-font gdg-h1 mb-0 grey--text text--darken-2">
-                  Our Sponsors
+                  Sponsors
                 </p>
                 <p>Sponsors dedicated to building remarkable experience!</p>
                 <v-btn
@@ -66,6 +66,39 @@
                     </v-col>
                   </v-row>
                 </v-container>
+
+
+                <p class="google-font mt-10 mb-n2">Hiring Partners</p>
+                <v-container fluid>
+                  <v-row align="center" justify="center">
+                    <v-col md="2">
+                      <SponsorDialogeVue
+                        :item="{
+                          img: 'https://raw.githubusercontent.com/GDG-Jalandhar/WebsiteData/master/partners/Cybertron.jpg',
+                          name: 'Cybertron Technologies',
+                          desc: `We are a Mobile App and  Website Development Firm based in Mohali, India. We provide programming services to multiple clients throughout the globe. Our team has skills in Angular, React, Node.js, Kotlin, Python, Laravel, Shopify, MySQL/Postgres/MongoDB etc. We are good at Expression Engine, WordPress, CakePHP, Bootstrap, SASS and jQuery. We also develop mobile apps and PWAs in the Ionic/Capacitor framework. In the past, we have worked with clients like Disney, Philips, MIT, Harvard University, American Pharmacists Association and Monash University.`,
+                          link: 'https://www.cybertrontechnologies.com/',
+                        }"
+                      />
+                    </v-col>
+                  </v-row>
+                </v-container>
+
+                <p class="google-font mt-10 mb-n2">Knowledge Partners</p>
+                <v-container fluid>
+                  <v-row align="center" justify="center">
+                    <v-col md="2">
+                      <SponsorDialogeVue
+                        :item="{
+                          img: 'https://raw.githubusercontent.com/GDG-Jalandhar/WebsiteData/master/partners/dcc2.png',
+                          name: 'Data Center on Cloud',
+                          desc: `Data Center On Cloud is place where you will learn the fundamentals to advance concepts of hosting your application on Public Cloud Platforms.This idea behind this channel is to provide you the guidance to migrate your application which can be Web Apps, Databases, Business Applications, Hybrid Cloud, Multi Cloud etc. There will be special focus on Cloud Certification preparations. DC on Cloud is covering all the major Cloud Platforms available in market. If you are looking to start your learning or planning to appear for Amazon Web Services, Microsoft Azure, Google Cloud Platforms exams, Dc On Cloud is providing the content for the same.`,
+                          link: 'https://www.youtube.com/c/DataCenterOnCloud/',
+                        }"
+                      />
+                    </v-col>
+                  </v-row>
+                </v-container>
               </v-col>
             </v-row>
 
@@ -80,7 +113,7 @@
               <v-col md="11" lg="11" class="text-center">
                 
                 <p class="google-font gdg-h1 mb-0 grey--text text--darken-2">
-                  Our Community Partners
+                  Community Partners
                 </p>
               </v-col>
             </v-row>
