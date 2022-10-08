@@ -46,5 +46,37 @@
       103
     ],
     "visible":"1"
+  },
+  {
+    "id": "504",
+    "slide": "",
+    "title": "Code or NoCode for Flutter?",
+    "description": "This talk is showcase that as a Flutter is a great UI toolkit to build Apps faster, now we have nocode solutions for Flutter apps. How reliable and helpful.",
+    "track": "Flutter",
+    "link": "",
+    "time":"30 min",
+    "format": "Day 1",
+    "date": " Oct 16, 2022",
+    "timeDuration": "30 min",
+    "speakers": [
+      104
+    ],
+    "visible":"1"
+  },
+  {
+    "id": "505",
+    "slide": "",
+    "title": "Workshop on Android",
+    "description": "Workshop on Android",
+    "track": "Mobile",
+    "link": "",
+    "time":"60 min",
+    "format": "Day 1",
+    "date": " Oct 16, 2022",
+    "timeDuration": "60 min",
+    "speakers": [
+      105
+    ],
+    "visible":"1"
   }
 ]
