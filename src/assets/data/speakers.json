@@ -88,5 +88,41 @@
       505
     ],
     "visible":"1"
+  },
+  {
+    "id": "106",
+    "name": "Lakshya Sivaramakrishnan",
+    "company": {
+      "designation": "Technical Program Manager",
+      "name": "Google"
+    },
+    "image": "lakshya.jpg",
+    "bio": "Lakshya Sivaramakrishnan is a Technical Program Manager at Google with the Payments Merchant team. She has managed the Women Techmakers Program in India for about five years, prior to this role. She has founded the Prayogshaala program which is a one week online bootcamp to nurture young women in technology. She is a TEDx speaker and a Shenomics 'Lead Like a Girl Fellow'. She enjoys nurturing communities and empowering women to join, thrive, and lead in the tech industry.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/lakshyasi/",
+      "twitter": "https://twitter.com/lakshyas90"
+    },
+    "sessionId": [
+      506
+    ],
+    "visible":"1"
+  },
+  {
+    "id": "107",
+    "name": "Ashok Vishwakarma",
+    "company": {
+      "designation": "Sr. Computer Scientist",
+      "name": "Adobe Systems"
+    },
+    "image": "ashok.jpg",
+    "bio": "GDE Web Technologies, Driving tech for products used and loved by millions of people, acquired a sound knowledge of Web Technologies, System Design, Performance, Database, Cloud, and Tools. Speaks at tech conferences, writes blogs, and contributes to Open Source.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/ashokvishwakarmaa/",
+      "twitter": "https://twitter.com/_avishwakarma"
+    },
+    "sessionId": [
+      507
+    ],
+    "visible":"1"
   }
 ]

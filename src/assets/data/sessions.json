@@ -78,5 +78,37 @@
       105
     ],
     "visible":"1"
+  },
+  {
+    "id": "506",
+    "slide": "",
+    "title": "My Top Five Learnings from Communities",
+    "description": "I will be sharing a few stories on how communities have had an impact on me and what I learnt in the process.",
+    "track": "Communities",
+    "link": "",
+    "time":"10 min",
+    "format": "Day 1",
+    "date": " Oct 16, 2022",
+    "timeDuration": "10 min",
+    "speakers": [
+      106
+    ],
+    "visible":"1"
+  },
+  {
+    "id": "507",
+    "slide": "",
+    "title": "How Angular helps with Scale",
+    "description": "I will be sharing a few stories on how communities have had an impact on me and what I learnt in the process.",
+    "track": "Web",
+    "link": "",
+    "time":"20 min",
+    "format": "Day 1",
+    "date": " Oct 16, 2022",
+    "timeDuration": "20 min",
+    "speakers": [
+      107
+    ],
+    "visible":"1"
   }
 ]
