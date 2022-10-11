@@ -101,6 +101,12 @@
       </v-col>
     </v-row>
   </v-container>
+
+  <!-- Jet Brain Gold -->
+  <!-- Vardiano Diamond -->
+  <!-- Cabbana Hospitality Partner -->
+  <!-- Cabbana & pyramid Hospitality Partner -->
+
 </template>
 
 <script>

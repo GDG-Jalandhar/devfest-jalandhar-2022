@@ -124,5 +124,23 @@
       507
     ],
     "visible":"1"
+  },
+  {
+    "id": "108",
+    "name": "Pradyot Adavi",
+    "company": {
+      "designation": "Engineering Manager",
+      "name": "Flipkart"
+    },
+    "image": "pradyot.jpg",
+    "bio": "Pradyot is an Engineering Manager in Fintech and Payments Group at Flipkart. Prior to this role, he was a software engineer building systems and products in the domain of payments and affordability charter of Flipkart. He has a patent filed for System And Method For Facilitating Data Sharing with Indian Patent Office. His areas of interest include distributed systems, big data and blockchain.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/pradyothadavi",
+      "twitter": "https://twitter.com/pradyothadavi"
+    },
+    "sessionId": [
+      508
+    ],
+    "visible":"1"
   }
 ]

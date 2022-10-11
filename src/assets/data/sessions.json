@@ -110,5 +110,21 @@
       107
     ],
     "visible":"1"
+  },
+  {
+    "id": "508",
+    "slide": "",
+    "title": "Cheatsheet for Building Resilient APIs",
+    "description": "This talk would cover five strategies to keep in mind for building resilient APIs.",
+    "track": "Web",
+    "link": "",
+    "time":"10 min",
+    "format": "Day 1",
+    "date": " Oct 16, 2022",
+    "timeDuration": "10 min",
+    "speakers": [
+      108
+    ],
+    "visible":"1"
   }
 ]

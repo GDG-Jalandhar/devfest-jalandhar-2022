@@ -51,6 +51,22 @@
                   </v-row>
                 </v-container>
 
+                <!-- <p class="google-font mt-10 mb-n2">Diamond Sponsors</p>
+                <v-container fluid>
+                  <v-row align="center" justify="center">
+                    <v-col md="2">
+                      <SponsorDialogeVue
+                        :item="{
+                          img: 'https://static.wixstatic.com/media/050ffd_6477049b3ce647ecaee5516b717fa411~mv2.png/v1/crop/x_0,y_18,w_750,h_217/fill/w_452,h_130,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/050ffd_6477049b3ce647ecaee5516b717fa411~mv2.png',
+                          name: 'Vardiano',
+                          desc: `India's #1 online store with Top rated products from top rated global brands on single store at best prices. No need to surf from one website to other.`,
+                          link: 'https://www.vardiano.com/',
+                        }"
+                      />
+                    </v-col>
+                  </v-row>
+                </v-container> -->
+
                 <p class="google-font mt-10 mb-n2">Platinum Sponsors</p>
                 <v-container fluid>
                   <v-row align="center" justify="center">
@@ -61,6 +77,22 @@
                           name: 'Stream',
                           desc: `Stream's <a href='https://getstream.io/chat/sdk/android/?utm_source=DevFest&utm_medium=Whole_Event_L&utm_content=Developer&utm_campaign=DevFest_October2022_AndroidChatSDK_klmh22'>Android</a> & <a href='https://getstream.io/chat/sdk/flutter/?utm_source=DevFest&utm_medium=Whole_Event_L&utm_content=Developer&utm_campaign=DevFest_October2022_FlutterChatSDK_klmh22'>Flutter</a> SDKs launch chat faster and its UI components make it easy to customize. Try it for free today!`,
                           link: 'https://getstream.io/chat/sdk/android/?utm_source=DevFest&utm_medium=Whole_Event_L&utm_content=Developer&utm_campaign=DevFest_October2022_AndroidChatSDK_klmh22',
+                        }"
+                      />
+                    </v-col>
+                  </v-row>
+                </v-container>
+
+                <p class="google-font mt-10 mb-n2">Gold Sponsors</p>
+                <v-container fluid>
+                  <v-row align="center" justify="center">
+                    <v-col md="2">
+                      <SponsorDialogeVue
+                        :item="{
+                          img: 'https://raw.githubusercontent.com/GDG-Jalandhar/WebsiteData/master/partners/jetbrains.png',
+                          name: 'JetBrains',
+                          desc: `JetBrains is a cutting-edge software vendor specializing in the creation of intelligent development tools, including IntelliJ IDEA`,
+                          link: 'https://www.jetbrains.com/',
                         }"
                       />
                     </v-col>
@@ -81,6 +113,7 @@
                         }"
                       />
                     </v-col>
+                    
                   </v-row>
                 </v-container>
 
@@ -97,6 +130,50 @@
                         }"
                       />
                     </v-col>
+                    <v-col md="2">
+                      <SponsorDialogeVue
+                        :item="{
+                          img: 'https://raw.githubusercontent.com/GDG-Jalandhar/WebsiteData/master/partners/pcbt-logo.png',
+                          name: 'Pyramid College Of Business & Technology',
+                          desc: `Pyramid College offers undergraduate & postgraduate courses in commerce, Business Studies, Computer Applications, Animation & Multimedia, Hotel Management.`,
+                          link: 'https://www.pyramidcollege.edu.in/',
+                        }"
+                      />
+                    </v-col>
+                  </v-row>
+                </v-container>
+
+                <p class="google-font mt-10 mb-n2">Hospitality Partners</p>
+                <v-container fluid>
+                  <v-row align="center" justify="center">
+                    <v-col md="2">
+                      <SponsorDialogeVue
+                        :item="{
+                          img: 'https://hotelcabbana.com/wp-content/uploads/2021/12/Logo-v3.png',
+                          name: 'The Cabbana Resort and Spa, Phagwara, Punjab',
+                          desc: `The Cabbana resort & spa is a luxury hotel in Jalandhar, Punjab. The resort is located on the outskirts of Jalandhar and offers luxury accommodation.`,
+                          link: 'https://hotelcabbana.com/',
+                        }"
+                      />
+                    </v-col>
+                   
+                  </v-row>
+                </v-container>
+
+                <p class="google-font mt-10 mb-n2">Ticketing Partners</p>
+                <v-container fluid>
+                  <v-row align="center" justify="center">
+                    <v-col md="2">
+                      <SponsorDialogeVue
+                        :item="{
+                          img: 'https://allevents.s3.amazonaws.com/media-kit/ae-logo.png',
+                          name: 'allevents',
+                          desc: `Largest Event Discovery platform helping 10 million people discover events every month!`,
+                          link: 'https://allevents.in/',
+                        }"
+                      />
+                    </v-col>
+                   
                   </v-row>
                 </v-container>
               </v-col>
