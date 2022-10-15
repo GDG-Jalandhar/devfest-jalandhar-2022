@@ -51,7 +51,7 @@
                   </v-row>
                 </v-container>
 
-                <!-- <p class="google-font mt-10 mb-n2">Diamond Sponsors</p>
+                <p class="google-font mt-10 mb-n2">Diamond Sponsors</p>
                 <v-container fluid>
                   <v-row align="center" justify="center">
                     <v-col md="2">
@@ -65,7 +65,7 @@
                       />
                     </v-col>
                   </v-row>
-                </v-container> -->
+                </v-container>
 
                 <p class="google-font mt-10 mb-n2">Platinum Sponsors</p>
                 <v-container fluid>
@@ -93,6 +93,22 @@
                           name: 'JetBrains',
                           desc: `JetBrains is a cutting-edge software vendor specializing in the creation of intelligent development tools, including IntelliJ IDEA`,
                           link: 'https://www.jetbrains.com/',
+                        }"
+                      />
+                    </v-col>
+                  </v-row>
+                </v-container>
+
+                <p class="google-font mt-10 mb-n2">Silver Sponsors</p>
+                <v-container fluid>
+                  <v-row align="center" justify="center">
+                    <v-col md="2">
+                      <SponsorDialogeVue
+                        :item="{
+                          img: `https://cdn-images-1.medium.com/max/980/1*aHiIJcYQ5jw-tLiUnjN2XQ@2x.png`,
+                          name: 'Impulsive Web',
+                          desc: `We are an optimistic team of modern thinking, creative designers, hi-tech developers. We believe that only sky is the limit and when it comes to imagination nothing can barred you up.`,
+                          link: 'https://www.impulsiveweb.com/',
                         }"
                       />
                     </v-col>

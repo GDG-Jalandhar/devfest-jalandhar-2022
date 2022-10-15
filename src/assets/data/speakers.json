@@ -121,7 +121,7 @@
       "twitter": "https://twitter.com/_avishwakarma"
     },
     "sessionId": [
-      507
+      507, 518
     ],
     "visible":"1"
   },
@@ -140,6 +140,42 @@
     },
     "sessionId": [
       508
+    ],
+    "visible":"1"
+  },
+  {
+    "id": "109",
+    "name": "Vrijraj Singh",
+    "company": {
+      "designation": "Google Developer Expert",
+      "name": "Firebase & Web"
+    },
+    "image": "Vrijraj.jpg",
+    "bio": "Vrijraj is a Full Stack Developer & Tech Lead at agprop by profession and a community champion by passion. He is an organizer for GDG Jalandhar and a Google Developers Expert for Firebase and Web Technologies. He has given 200+ talks and workshops for communities over the past 5 years. His areas of expertise are around Web, Firebase, Google Cloud Platform, and UI/UX Design. He is always eager to learn new technologies and develop solutions based on them. He enjoys mentoring people and nurturing communities. Outside work, he is a foodie and enjoys watching YouTube videos.d",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/vrijrajsingh",
+      "twitter": "https://twitter.com/SVrijraj"
+    },
+    "sessionId": [
+      509
+    ],
+    "visible":"1"
+  },
+  {
+    "id": "110",
+    "name": "Varsha Jaiswal",
+    "company": {
+      "designation": "Sr. Software Engineer",
+      "name": "EasyEat"
+    },
+    "image": "Varsha.jpg",
+    "bio": "I am a girl with a bag full of hardwork and determination to fulfill my responsibilities. I am the Organizer and Women Techmakers Ambassador at GDG Jalandhar . Working as a Software Engineer, I have a keen interest in working on new technologies. Being a Gold facilitator of #IamRemarkable Workshop, I always give my best to motivate the surroundings.",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/varshajaiswal",
+      "twitter": "https://twitter.com/_varshajaiswal_"
+    },
+    "sessionId": [
+      510, 511
     ],
     "visible":"1"
   }

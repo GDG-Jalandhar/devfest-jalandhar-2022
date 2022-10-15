@@ -74,7 +74,7 @@
                     </v-list>
                   </v-col>
                   <v-col md="2" class="text-right d-none d-sm-block">
-                    <v-tooltip bottom>
+                    <!-- <v-tooltip bottom>
                       <template v-slot:activator="{ on, attrs }">
                         <v-btn v-bind="attrs" v-on="on" fab text :to="'/speakers/' + speakerData.id"
                 target="_blank"
@@ -82,7 +82,7 @@
                         >
                       </template>
                       <span>View in New Tab</span>
-                    </v-tooltip>
+                    </v-tooltip> -->
                   </v-col>
                 </v-row>
               </v-container>

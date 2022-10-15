@@ -1,14 +1,14 @@
 <template>
   <v-main>
-    <v-container fluid>
+    <v-container fluid >
       <v-row justify="center" align="center">
-        <v-col md="11" sm="11" lg="11" class="google-font my-15 py-10">
+        <v-col md="12" sm="12" cols="12" lg="10" class="google-font my-10" >
           <!-- Page Content -->
           <v-container fluid>
             <!-- Heading -->
             <v-row justify="center" align="center">
               <v-col>
-                <p class="super-heading">Schedule</p>
+                <p class="google-font gdg-h1 mb-0 grey--text text--darken-2">Schedule</p>
                 <p style="font-size:20px">
                   Follow code demonstrations by our expert speakers on 5
                   different tracks. Check out the schedule below and don't
@@ -22,9 +22,8 @@
                     color="primary"
                     slider-color="primary"
                   >
-                    <v-tab href="#day1">Day 1</v-tab>
-                    <v-tab href="#day2">Day 2</v-tab>
-                    <v-tab href="#day3">Day 3</v-tab>
+                    <v-tab href="#sessions">Sessions</v-tab>
+                    <v-tab href="#workshops">Workshops</v-tab>
                   </v-tabs>
                 </v-toolbar>
               </v-col>
@@ -35,20 +34,15 @@
             <v-row justify="center" align="center">
                 <v-col>
                     <v-tabs-items v-model="model">
-                        <v-tab-item value="day1">
+                        <v-tab-item value="sessions">
                             <!-- <p class="h1-heading">Day 1 Schdule</p>
                             <p class="h1-subheading">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore provident maiores et pariatur illum quis enim nam labore deserunt voluptate! Amet hic voluptate ad? Sed, eius laudantium. Quo, voluptate inventore!</p> -->
                             <ScheduleDetails :data="ScheduleData[0]" />
                         </v-tab-item>
-                        <v-tab-item value="day2">
+                        <v-tab-item value="workshops">
                             <!-- <p class="h1-heading">Day 2 Schdule</p>
                             <p class="h1-subheading">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore provident maiores et pariatur illum quis enim nam labore deserunt voluptate! Amet hic voluptate ad? Sed, eius laudantium. Quo, voluptate inventore!</p> -->
                             <ScheduleDetails :data="ScheduleData[1]" />
-                        </v-tab-item>
-                        <v-tab-item value="day3">
-                            <p class="h1-heading">Day 3 Schdule</p>
-                            <p class="h1-subheading">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore provident maiores et pariatur illum quis enim nam labore deserunt voluptate! Amet hic voluptate ad? Sed, eius laudantium. Quo, voluptate inventore!</p>
-                            <ScheduleDetails :data="ScheduleData[2]" />
                         </v-tab-item>
                     </v-tabs-items>
                 </v-col>
@@ -71,14 +65,14 @@ export default {
     ScheduleDetails
   },
   data: () => ({
-    model: "day1",
+    model: "sessions",
     ScheduleData: [],
   }),
   created(){
     document.title = 'Schedule | DevFest Jalandhar 2022'
   },
   mounted(){
-    let tabs = ['day1','day2','day3']
+    let tabs = ['sessions','workshops','day3']
     if (Object.keys(this.$route.query) == "tab"){
         if(tabs.indexOf(this.$route.query["tab"])!=-1){
             this.model = this.$route.query["tab"]

@@ -30,11 +30,11 @@ const routes = [
     name: 'Speakers',
     component: () => import(/* webpackChunkName: "speakers" */ '../views/Speakers.vue')
   },
-  // {
-  //   path: '/schedule',
-  //   name: 'Schedule',
-  //   component: () => import(/* webpackChunkName: "schedule" */ '../views/Schedule.vue')
-  // },
+  {
+    path: '/schedule',
+    name: 'Schedule',
+    component: () => import(/* webpackChunkName: "schedule" */ '../views/Schedule.vue')
+  },
   {
     path: '/schedule/:id',
     name: 'scheduleDetails',

@@ -34,15 +34,15 @@ export default new Vuex.Store({
           showBottomNav: false,
         },
       },
-      // {
-      //   text: "Schedule",
-      //   to: "/schedule",
-      //   icon: "mdi-newspaper-variant-outline",
-      //   meta: {
-      //     showToolbar: true,
-      //     showBottomNav: false,
-      //   },
-      // },
+      {
+        text: "Schedule",
+        to: "/schedule",
+        icon: "mdi-newspaper-variant-outline",
+        meta: {
+          showToolbar: true,
+          showBottomNav: false,
+        },
+      },
       // {
       //   text: "Registration",
       //   to: "/registration",

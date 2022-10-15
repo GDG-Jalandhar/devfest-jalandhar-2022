@@ -126,5 +126,165 @@
       108
     ],
     "visible":"1"
+  },
+  {
+    "id": "509",
+    "slide": "",
+    "title": "What's New in Firebase",
+    "description": "Session on Updates in Firebase for Building Large Scale Solutions",
+    "track": "Firebase",
+    "link": "",
+    "time":"15 min",
+    "format": "Day 1",
+    "date": " Oct 16, 2022",
+    "timeDuration": "15 min",
+    "speakers": [
+      109
+    ],
+    "visible":"1"
+  },
+  {
+    "id": "510",
+    "slide": "",
+    "title": "Keynote",
+    "description": "Keynote Session",
+    "track": "Web",
+    "link": "",
+    "time":"15 min",
+    "format": "Day 1",
+    "date": " Oct 16, 2022",
+    "timeDuration": "15 min",
+    "speakers": [
+      110
+    ],
+    "visible":"1"
+  },
+  {
+    "id": "511",
+    "slide": "",
+    "title": "Welcome Keynote",
+    "description": "Welcome Keynote Session",
+    "track": "Web",
+    "link": "",
+    "time":"15 min",
+    "format": "Day 1",
+    "date": " Oct 16, 2022",
+    "timeDuration": "15 min",
+    "speakers": [
+      109, 110
+    ],
+    "visible":"1"
+  },
+  {
+    "id": "512",
+    "slide": "",
+    "title": "Registrations & Hi Tea",
+    "description": "Registrations & Hi Tea",
+    "track": "Web",
+    "link": "",
+    "time":"90 min",
+    "format": "Day 1",
+    "date": " Oct 16, 2022",
+    "timeDuration": "90 min",
+    "speakers": [
+     
+    ],
+    "visible":"1"
+  },
+  {
+    "id": "513",
+    "slide": "",
+    "title": "Sponsor's Talk",
+    "description": "Sponsor's Talk",
+    "track": "Web",
+    "link": "",
+    "time":"30 min",
+    "format": "Day 1",
+    "date": " Oct 16, 2022",
+    "timeDuration": "30 min",
+    "speakers": [
+     
+    ],
+    "visible":"1"
+  },
+  {
+    "id": "514",
+    "slide": "",
+    "title": "Lunch",
+    "description": "Lunch",
+    "track": "Web",
+    "link": "",
+    "time":"60 min",
+    "format": "Day 1",
+    "date": " Oct 16, 2022",
+    "timeDuration": "60 min",
+    "speakers": [
+     
+    ],
+    "visible":"1"
+  },
+  {
+    "id": "515",
+    "slide": "",
+    "title": "Evening Tea % Snacks",
+    "description": "Evening Tea % Snacks",
+    "track": "Web",
+    "link": "",
+    "time":"15 min",
+    "format": "Day 1",
+    "date": " Oct 16, 2022",
+    "timeDuration": "15 min",
+    "speakers": [
+     
+    ],
+    "visible":"1"
+  },
+  {
+    "id": "516",
+    "slide": "",
+    "title": "Panel Discussion",
+    "description": "Panel Discussion",
+    "track": "Web",
+    "link": "",
+    "time":"60 min",
+    "format": "Day 1",
+    "date": " Oct 16, 2022",
+    "timeDuration": "60 min",
+    "speakers": [
+     
+    ],
+    "visible":"1"
+  },
+  {
+    "id": "517",
+    "slide": "",
+    "title": "Closing Note",
+    "description": "Closing Note",
+    "track": "Web",
+    "link": "",
+    "time":"30 min",
+    "format": "Day 1",
+    "date": " Oct 16, 2022",
+    "timeDuration": "30 min",
+    "speakers": [
+     
+    ],
+    "visible":"1"
+  },
+  {
+    "id": "518",
+    "slide": "",
+    "title": "Workshop on Web",
+    "description": "",
+    "track": "Web",
+    "link": "",
+    "time":"50 min",
+    "format": "Day 1",
+    "date": " Oct 16, 2022",
+    "timeDuration": "50 min",
+    "speakers": [
+      107
+    ],
+    "visible":"1"
   }
 ]
