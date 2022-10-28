@@ -19,7 +19,7 @@ export default new Vuex.Store({
       {
         text: "Badges",
         to: "/badges",
-        icon: "mdi-newspaper-variant-outline",
+        icon: "mdi-shield-account-outline",
         meta: {
           showToolbar: true,
           showBottomNav: true,
@@ -28,7 +28,7 @@ export default new Vuex.Store({
       {
         text: "Speakers",
         to: "/speakers",
-        icon: "mdi-newspaper-variant-outline",
+        icon: "mdi-account-group-outline",
         meta: {
           showToolbar: true,
           showBottomNav: false,
@@ -56,6 +56,15 @@ export default new Vuex.Store({
         text: "Partners",
         to: "/partners",
         icon: "mdi-account-switch-outline",
+        meta: {
+          showToolbar: true,
+          showBottomNav: false,
+        },
+      },
+      {
+        text: "Jobs",
+        to: "/jobs",
+        icon: "mdi-google-my-business",
         meta: {
           showToolbar: true,
           showBottomNav: false,

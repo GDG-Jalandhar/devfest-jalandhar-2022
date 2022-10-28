@@ -18,7 +18,7 @@
           </p>
 
           <!-- <v-btn rounded depressed large class="mr-3" dark color="#4285F4">Registrations Starting Soon..</v-btn> -->
-          <button data-event-id="80005018890187" data-ticket-id="0" class="ae-ticket-book-button" >Book Now</button>
+          <!-- <button data-event-id="80005018890187" data-ticket-id="0" class="ae-ticket-book-button" >Book Now</button> -->
           <!-- <v-btn rounded outlined depressed large>See More</v-btn> -->
    
       </v-col>

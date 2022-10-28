@@ -10,7 +10,7 @@
                   Sponsors
                 </p>
                 <p>Sponsors dedicated to building remarkable experience!</p>
-                <v-btn
+                <!-- <v-btn
                   depressed
                   rounded
                   color="#4285F4"
@@ -29,7 +29,7 @@
                   outlined
                   class="mx-1 mt-1"
                   >Sponsorship Brochure</v-btn
-                >
+                > -->
               </v-col>
             </v-row>
 

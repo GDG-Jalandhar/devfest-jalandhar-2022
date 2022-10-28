@@ -60,6 +60,11 @@ const routes = [
     name: 'donate',
     component: () => import(/* webpackChunkName: "donate" */ '../views/Donate.vue')
   },
+  {
+    path: '/jobs',
+    name: 'jobs',
+    component: () => import(/* webpackChunkName: "jobs" */ '../views/Jobs.vue')
+  },
   // {
   //   path: '/u/:id',
   //   name: 'PublicProfile',

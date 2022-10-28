@@ -1,0 +1,146 @@
+[
+    {
+        "jid": "100",
+        "company": {
+            "name": "Cybertron Technologies",
+            "link": "https://www.cybertrontechnologies.com",
+            "image": ""
+        },
+        "JobTitle": "Kotlin Developer",
+        "JobDesc": "<p>Cybertron Technologies is looking for a proficient and enthusiastic Kotlin Developer as per details given below.&nbsp;</p><p><strong>NOTE: This job is not Android App Development specific, but Android App Developers with good understanding of Kotlin can also apply.</strong></p><p><strong>Key responsibilities include:</strong></p><ol><li>&nbsp;Work with Kotlin using new libraries and frameworks.&nbsp;</li><li>Manage existing projects.&nbsp;</li><li>Develop new projects from scratch. Required qualifications:&nbsp;</li><li>Little experience or 6 months industrial training is mandatory.&nbsp;</li><li>Strong understanding of Java, Kotlin, MYSQL/MongoDB.</li><li>Those who have understanding about SOLID and DRY.&nbsp;</li><li>Those who have understanding about SDLC.&nbsp;</li><li>Those who have understanding about ORM.&nbsp;</li><li>Those who have understanding about basic of Data Structure and Algorithm 👉🏼Undertanding of Git and GitHub/BitBucket/GitLab.</li></ol>",
+        "JobType": "Full Time",
+        "JobExp": "0-1 years",
+        "JobLoc": "Phase 3B2 - Mohali",
+        "JobSkills": "Java, Kotlin, MySQL, MongoDB",
+        "no_of_opening": "1",
+        "EligibilityCriteria": "Must be willing to work full-time, from office. Level of english speaking: Conversational",
+        "SelectionProcess": "<ol><li>Send in your resumes to <a href='mailto:simarpreet@cybertrontechnologies.com?subject=%5BDevFest%20Jalandhar%202022%5D'>simarpreet@cybertrontechnologies.com</a>. Add DevFestJalandhar22 in the subject of e-mail.</li><li>You will be contacted. ASAP by our HR.</li><li>There will be 2 rounds of interview you have to go through.</li><li>Round 1: Technical Interview to test your Algo-designing with simple questions.</li><li>Round 2: Interview with management. This round will only be conducted if you clear the previous round.</li></ol>",
+        "ApplyLink":"mailto:simarpreet@cybertrontechnologies.com?subject=%5BDevFest%20Jalandhar%202022%5D"
+    },
+    {
+        "jid": "101",
+        "company": {
+            "name": "Cybertron Technologies",
+            "link": "https://www.cybertrontechnologies.com",
+            "image": ""
+        },
+        "JobTitle": "React Developer",
+        "JobDesc": "<p>Cybertron Technologies is looking for a proficient and enthusiastic React Developer as per details given below.&nbsp;</p><p><strong>Key responsibilities include:</strong></p><ol><li>Work with Vanilla JavaScript and React.&nbsp;</li><li>Implement and use libraries with your project.&nbsp;</li><li>Manage existing projects.&nbsp;</li><li>Develop n Deploy new projects from scratch.</li></ol><p><strong>Required qualifications:</strong></p><ol><li>Strong understanding of JavaScript and React.&nbsp;</li><li>Understanding about SOLID and DRY.&nbsp;</li><li>Understanding about SDLC.&nbsp;</li><li>Understanding about RESTFul APIs.&nbsp;</li><li>Understanding about basic of Data Structure and Algorithm&nbsp;</li><li>Understanding of Git and GitHub/BitBucket/GitLab.&nbsp;</li><li>Knowledge of Firebase will be considered as a plus point.</li></ol><p><br></p>",
+        "JobType": "Full Time",
+        "JobExp": "0-1 years",
+        "JobLoc": "Phase 3B2 - Mohali",
+        "JobSkills": "JavaScript, React",
+        "no_of_opening": "2",
+        "EligibilityCriteria": "Must be willing to work full-time, from office. Level of english speaking: Conversational",
+        "SelectionProcess": "<ol><li>Send in your resumes to<a href='mailto:simarpreet@cybertrontechnologies.com?subject=%5BDevFest%20Jalandhar%202022%5D'>simarpreet@cybertrontechnologies.com</a>. Add DevFestJalandhar22 in the subject of e-mail.</li><li>You will be contacted. ASAP by our HR.</li><li>There will be 2 rounds of interview you have to go through.</li><li>Round 1: Technical Interview to test your Algo-designing with simple questions.</li><li>Round 2: Interview with management. This round will only be conducted if you clear the previous round.</li></ol>",
+        "ApplyLink":"mailto:simarpreet@cybertrontechnologies.com?subject=%5BDevFest%20Jalandhar%202022%5D"
+    },
+    {
+        "jid": "102",
+        "company": {
+            "name": "Cybertron Technologies",
+            "link": "https://www.cybertrontechnologies.com",
+            "image": ""
+        },
+        "JobTitle": "Angular Developer",
+        "JobDesc": "<p>Cybertron Technologies is looking for a proficient and enthusiastic Angular Developer as per details given below.&nbsp;</p><p><strong>Key responsibilities include:&nbsp;</strong></p><ol><li>Work with Vanilla JavaScript and Angular.</li><li>Implement and use libraries with your project.</li><li>Manage existing projects.</li><li>Develop n Deploy new projects from scratch.&nbsp;</li></ol><p><strong>Required qualifications:&nbsp;</strong></p><ol><li>Strong understanding of JavaScript.</li><li>Basic understanding of Angular Concepts - Components, Directives, Pipes, Services etc.</li><li>Understanding about SOLID and DRY.</li><li>Understanding about SDLC.</li><li>Understanding about RESTFul APIs.</li><li>Understanding about basic of Data Structure and Algorithm</li><li>Understanding of Git and GitHub/BitBucket/GitLab.</li><li>Knowledge of Firebase will be considered as a plus point.</li></ol><p><br></p>",
+        "JobType": "Full Time",
+        "JobExp": "0-1 years",
+        "JobLoc": "Phase 3B2 - Mohali",
+        "JobSkills": "JavaScript, Angular, Firebase",
+        "no_of_opening": "2",
+        "EligibilityCriteria": "Must be willing to work full-time, from office. Level of english speaking: Conversational",
+        "SelectionProcess": "<ol><li>Send in your resumes to<a href='mailto:simarpreet@cybertrontechnologies.com?subject=%5BDevFest%20Jalandhar%202022%5D'>simarpreet@cybertrontechnologies.com</a>. Add DevFestJalandhar22 in the subject of e-mail.</li><li>You will be contacted. ASAP by our HR.</li><li>There will be 2 rounds of interview you have to go through.</li><li>Round 1: Technical Interview to test your Algo-designing with simple questions.</li><li>Round 2: Interview with management. This round will only be conducted if you clear the previous round.</li></ol>",
+        "ApplyLink":"mailto:simarpreet@cybertrontechnologies.com?subject=%5BDevFest%20Jalandhar%202022%5D"
+    },
+    {
+        "jid": "103",
+        "company": {
+            "name": "Cybertron Technologies",
+            "link": "https://www.cybertrontechnologies.com",
+            "image": ""
+        },
+        "JobTitle": "Nodejs Developer",
+        "JobDesc": "<p>Cybertron Technologies is looking for a proficient and enthusiastic Node.js Developer as per details given below.&nbsp;</p><p><strong>Key responsibilities include:&nbsp;</strong></p><ol><li>Work with JavaScript and Nodejs using Expressjs and other libraries.</li><li>Manage existing projects.</li><li>Develop/Deploy new projects from scratch</li><li>Develop/Deploy RESTFul APIs.</li></ol><p><strong>Required qualifications:&nbsp;</strong></p><ol><li>Little experience or 6 months industrial training is mandatory.</li><li>Strong understanding of JavaScript, Nodejs, Expressjs, MySQL/MongoDB.</li><li>Those who have understanding about SOLID and DRY.</li><li>Those who have understanding about SDLC.</li><li>Those who have understanding about ORM.</li><li>Those who have understanding about basic of Data Structure and Algorithm</li><li>Understanding of Git and GitHub/BitBucket/GitLab.</li></ol><p><br></p>",
+        "JobType": "Full Time",
+        "JobExp": "0-1 years",
+        "JobLoc": "Phase 3B2 - Mohali",
+        "JobSkills": "JavaScript, Nodejs, MySQL/MongoDB",
+        "no_of_opening": "2",
+        "EligibilityCriteria": "Must be willing to work full-time, from office. Level of english speaking: Conversational",
+        "SelectionProcess": "<ol><li>Send in your resumes to<a href='mailto:simarpreet@cybertrontechnologies.com?subject=%5BDevFest%20Jalandhar%202022%5D'>simarpreet@cybertrontechnologies.com</a>. Add DevFestJalandhar22 in the subject of e-mail.</li><li>You will be contacted. ASAP by our HR.</li><li>There will be 2 rounds of interview you have to go through.</li><li>Round 1: Technical Interview to test your Algo-designing with simple questions.</li><li>Round 2: Interview with management. This round will only be conducted if you clear the previous round.</li></ol>",
+        "ApplyLink":"mailto:simarpreet@cybertrontechnologies.com?subject=%5BDevFest%20Jalandhar%202022%5D"
+    },
+    {
+        "jid": "104",
+        "company": {
+            "name": "Vardiano",
+            "link": "https://www.vardiano.com/",
+            "image": ""
+        },
+        "JobTitle": "App Developer",
+        "JobDesc": "<p>The ideal candidate will be responsible for the technical design and implementation of new products and enhancements. They will work in all phases of the development cycle, from concept to implementation.</p><p><strong>Responsibilities</strong></p><ol><li>Perform full life-cycle of App development&nbsp;</li><li>Follow agile delivery schedules&nbsp;</li><li>Utilizes source control, continuous integration, and unit testing best practices&nbsp;</li><li>Work cross-functionally to define and write code for new features&nbsp;</li><li>Must have developed min. 2 apps from scratch to completion.&nbsp;</li><li>Have a strong ability to take over new challenges. Qualifications&nbsp;</li><li>Bachelor&apos;s degree or equivalent in Computer Science.&nbsp;</li></ol>",
+        "JobType": "Internship",
+        "JobExp": "freshers/If experienced 1 year Exp is Required",
+        "JobLoc": "Remote",
+        "JobSkills": "AR/VR, Flutter",
+        "no_of_opening": "3",
+        "EligibilityCriteria": "Must be persuing or completed UG from technical background",
+        "SelectionProcess": "Sample prototype submission and interview",
+        "ApplyLink":"mailto:admin@vardiano.com?subject=%5BDevFest%20Jalandhar%202022%5D"
+    },
+    {
+        "jid": "105",
+        "company": {
+            "name": "Vardiano",
+            "link": "https://www.vardiano.com/",
+            "image": ""
+        },
+        "JobTitle": "Web Developer",
+        "JobDesc": "<p>The ideal candidate will be responsible for the technical design and implementation of new products and enhancements. They will work in all phases of the development cycle, from concept to implementation.&nbsp;</p><p><strong>Responsibilities&nbsp;</strong></p><ol><li>Perform full life-cycle of Web development&nbsp;</li><li>Follow agile delivery schedules&nbsp;</li><li>Utilizes source control, continuous integration, and unit testing best practices&nbsp;</li><li>Work cross-functionally to define and write code for new features&nbsp;</li><li>Must have developed min. 2 apps from scratch to completion.&nbsp;</li><li>Have a strong ability to take over new challenges. Qualifications&nbsp;</li><li>Bachelor&apos;s degree or equivalent in Computer Science.&nbsp;</li></ol>",
+        "JobType": "Internship",
+        "JobExp": "freshers/If experienced 1 year Exp is Required",
+        "JobLoc": "Remote",
+        "JobSkills": "Javascript, CSS, AR/VR, Flutter",
+        "no_of_opening": "3",
+        "EligibilityCriteria": "Must be persuing or completed UG from technical background",
+        "SelectionProcess": "Sample prototype submission and interview",
+        "ApplyLink":"mailto:admin@vardiano.com?subject=%5BDevFest%20Jalandhar%202022%5D"
+    },
+    {
+        "jid": "106",
+        "company": {
+            "name": "Vardiano",
+            "link": "https://www.vardiano.com/",
+            "image": ""
+        },
+        "JobTitle": "Graphic Designer",
+        "JobDesc": "<p><strong>Responsibilities</strong></p><ol><li>Graphic Designing&nbsp;</li><li>Video Editing&nbsp;</li><li>Understanding of social media campaigns and concepts&nbsp;</li><li>Passionate about creating thoughtful content&nbsp;</li><li>Fluent in English to understand and edit interview/videos bytes&nbsp;</li><li>Able to subtitle videos where required&nbsp;</li><li>Has creative skills and energy to edit visually and thoughtfully engaging, lively and presentable content as per the brand&apos;s aesthetics, brief and language&nbsp;</li><li>Expert with essential editing software like Adobe Premiere Pro, Photoshop, After Effects etc&nbsp;</li><li>Team player, growth-oriented and creative individual who aims to grow in the industry&nbsp;</li><li>Is adaptive to a hybrid working atmosphere (Work from home + Office) Located in Delhi</li></ol>",
+        "JobType": "Internship",
+        "JobExp": "freshers/If experienced 1 year Exp is Required",
+        "JobLoc": "Remote",
+        "JobSkills": "Adobe Photoshop, CoralDraw",
+        "no_of_opening": "3",
+        "EligibilityCriteria": "",
+        "SelectionProcess": "Sample prototype submission and interview",
+        "ApplyLink":"mailto:admin@vardiano.com?subject=%5BDevFest%20Jalandhar%202022%5D"
+    },
+    {
+        "jid": "107",
+        "company": {
+            "name": "Vardiano",
+            "link": "https://www.vardiano.com/",
+            "image": ""
+        },
+        "JobTitle": "Content Writer",
+        "JobDesc": "We are looking for a Content Writer to join our editorial team and enrich our websites with new blog posts, guides and marketing copy. Content Writer responsibilities include conducting thorough research on industry-related topics, generating ideas for new content types and proofreading articles before publication. If you're familiar with producing online content and have an eye for detail, we'd like to meet you. Feel free to share samples of your work or portfolio of your published articles, along with your application. You'll deliver quality writing pieces that appeal to our audiences, attract customers and boost brand awareness.",
+        "JobType": "Internship",
+        "JobExp": "freshers/If experienced 1 year Exp is Required",
+        "JobLoc": "Remote",
+        "JobSkills": "Proven work experience as a Content Writer, Copywriter or similar role Portfolio of published articles Experience doing research using multiple sources Familiarity with web publications Excellent writing and editing skills in English Hands-on experience with Content Management Systems (e.g. WordPress) Ability to meet deadlines BSc in Marketing, English, Journalism or related field",
+        "no_of_opening": "3",
+        "EligibilityCriteria": "",
+        "SelectionProcess": "Sample prototype submission and interview",
+        "ApplyLink":"mailto:admin@vardiano.com?subject=%5BDevFest%20Jalandhar%202022%5D"
+    }
+]
