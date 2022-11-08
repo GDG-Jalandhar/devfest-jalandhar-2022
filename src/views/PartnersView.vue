@@ -165,7 +165,7 @@
                     <v-col md="2">
                       <SponsorDialogeVue
                         :item="{
-                          img: 'https://hotelcabbana.com/wp-content/uploads/2021/12/Logo-v3.png',
+                          img: 'https://hotelcabbana.com/wp-content/uploads/2022/10/cropped-The-Cabbana-Logo.png',
                           name: 'The Cabbana Resort and Spa, Phagwara, Punjab',
                           desc: `The Cabbana resort & spa is a luxury hotel in Jalandhar, Punjab. The resort is located on the outskirts of Jalandhar and offers luxury accommodation.`,
                           link: 'https://hotelcabbana.com/',

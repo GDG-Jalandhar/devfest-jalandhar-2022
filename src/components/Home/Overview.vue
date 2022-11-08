@@ -47,7 +47,7 @@
                 
                 class="white--text align-end"
                 style="border-radius:12px"
-                src="https://hotelcabbana.com/wp-content/uploads/2022/03/COP_079NNN-scaled.jpg"
+                src="https://raw.githubusercontent.com/GDG-Jalandhar/WebsiteData/master/events/devfest-jalandhar-2022/cabbana.jpeg"
               >
                 <div class="ma-5">
                   <v-avatar color="white" size="32" class="mr-2">
